@@ -1,4 +1,4 @@
-background-color: #5B7643;  /* rgb(91, 118, 67) */
+  /* rgb(91, 118, 67) */
 
 /*** Spinner Start ***/
 #spinner {
@@ -78,12 +78,14 @@ background-color: #5B7643;  /* rgb(91, 118, 67) */
 /*** Topbar Start ***/
 .fixed-top {
     transition: 0.5s;
-    background: var(--bs-white);
+    background: rgb(94, 119, 74);
     border: 0;
 }
 
 .topbar {
-    padding: 20px;
+    padding: 17px 20px 17px 20px;
+    background: rgb(94, 119, 74);
+    border-bottom: 1px solid rgb(139, 164, 105);
     /* border-radius: 230px 100px; */
 }
 
@@ -93,6 +95,12 @@ background-color: #5B7643;  /* rgb(91, 118, 67) */
     letter-spacing: 1px;
     display: flex;
     align-items: center;
+}
+.top-info a{
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 30px;
+    color: white;
 }
 
 .topbar .top-link {
@@ -105,6 +113,7 @@ background-color: #5B7643;  /* rgb(91, 118, 67) */
 
 .topbar .top-link a {
     letter-spacing: 1px;
+    color: white !important;
 }
 
 .topbar .top-link a small:hover {
@@ -119,14 +128,24 @@ background-color: #5B7643;  /* rgb(91, 118, 67) */
 
 /*** Navbar Start ***/
 .navbar .navbar-nav .nav-link {
-    padding: 10px 15px;
     font-size: 16px;
     transition: .5s;
 }
 
+.navbar-nav a{
+    color: white !important;
+}
+    
+.navbar .navbar-brand h6{
+    font-size: 20px;
+    color: white !important;
+}
+
 .navbar {
-    height: 100px;
+    height: 70px;
+    width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, .1);
+    background: rgb(94, 119, 74) !important;
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -174,6 +193,41 @@ background-color: #5B7643;  /* rgb(91, 118, 67) */
 
 #searchModal .modal-content {
     background: rgba(255, 255, 255, .8);
+}
+
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 6px;
+    padding: 8px 10px;
+    width: 380px; /* kengligi */
+    height: 40px;
+    gap: 8px;
+    margin-right: 20px;
+}
+
+.search-box .icon {
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.post-btn {
+    background: #e1a035; /* rasmga juda yaqin sariq */
+    border: none;
+    padding: 8px 18px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    border-radius: 6px;
 }
 /*** Navbar End ***/
 
@@ -229,14 +283,14 @@ background-color: #5B7643;  /* rgb(91, 118, 67) */
 @media (min-width: 992px) {
     .hero-header,
     .page-header {
-        margin-top: 152px !important;
+        margin-top: 116px !important;
     }
 }
 
 @media (max-width: 992px) {
     .hero-header,
     .page-header {
-        margin-top: 97px !important;
+        margin-top: 0px !important
     }
 }
 /*** Hero Header end ***/
@@ -279,7 +333,7 @@ background-color: #5B7643;  /* rgb(91, 118, 67) */
 
 /*** Fruits Start ***/
 .fruite .tab-class .nav-item a.active {
-    background: var(--bs-secondary) !important;
+    background-color: black !important;
 }
 
 .fruite .tab-class .nav-item a.active span {
@@ -489,4 +543,20 @@ background-color: #5B7643;  /* rgb(91, 118, 67) */
     line-height: 35px;
 }
 /*** Footer End ***/
+.top-link i{
+    color: #e1a035;
+}
+.navbar .nav-item:hover .dropdown-menu {
+    transform: rotateX(0deg);
+    visibility: visible;
+    background: #000 !important;
+    border-radius: 10px !important;
+    transition: .5s;
+    opacity: 1;
+}
+
+.dropdown .dropdown-menu a:hover {
+    background: #333 !important;
+    color: var(--bs-primary) !important;
+}
 

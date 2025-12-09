@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\NewsController;
+use App\Http\Controllers\Admin\AnimalsController;
 use App\Http\Controllers\Admin\PermissionsController;
 use App\Http\Controllers\Admin\RolesController;
 use App\Http\Controllers\Admin\UsersController;
@@ -35,6 +36,7 @@ Route::middleware(['auth:web'])->prefix('admin')->group(function () {
         'roles'  => RolesController::class,
         'permissions'  => PermissionsController::class,
         'news'  => NewsController::class,
+        'animals' => AnimalsController::class,
     ]);
 
 });
