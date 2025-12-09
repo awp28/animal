@@ -159,7 +159,10 @@
                                             <div class="card-body border border-primary">
                                                 <h5 class="card-title">Qo'chqorlar</h5>
                                                 <p class="card-text">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
-                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="" style="width: 27rem;">
@@ -167,7 +170,10 @@
                                             <div class="card-body border border-primary">
                                                 <h5 class="card-title">Qo'chqorlar</h5>
                                                 <p class="card-text">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
-                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                <div class="d-flex justify-content-between flex-lg-wrap">
+                                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                </div>
                                             </div>
                                         </div>
                                         <!-- <div class="col-md-6 col-lg-4 col-xl-4">
@@ -189,7 +195,7 @@
                                             <div class="ratio ratio-16x9">
                                                 <img src="img/qoy.jpg" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
                                             </div>
-                                            <div class="card-body border border-secondary">
+                                            <div class="card-body border border-primary">
                                                 <h5 class="card-title">Qo'chqorlar</h5>
                                                 <p class="card-text">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
@@ -205,7 +211,7 @@
                                             <div class="ratio ratio-16x9">
                                                 <img src="img/qoy.jpg" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
                                             </div>
-                                            <div class="card-body border border-secondary">
+                                            <div class="card-body border border-primary">
                                                 <h5 class="card-title">Qo'chqorlar</h5>
                                                 <p class="card-text">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
@@ -221,7 +227,7 @@
                                             <div class="ratio ratio-16x9">
                                                 <img src="img/qoy.jpg" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
                                             </div>
-                                            <div class="card-body border border-secondary">
+                                            <div class="card-body border border-primary">
                                                 <h5 class="card-title">Qo'chqorlar</h5>
                                                 <p class="card-text">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
