@@ -5,7 +5,7 @@
                 <small class="me-3"><a href="#">Need some help?</a></small>
             </div>
             <div class="top-link pe-2">
-                <a href="#"><i class="fa-solid fa-pen"></i><small class="mx-2">Block & Podcats</small></a>
+                <a href="#"><i class="fa-solid fa-pen"></i><small class="mx-2">Blog & Podcats</small></a>
                 <a href="#"><i class="fa-solid fa-user"></i><small class="mx-2">Register</small></a>
                 <a href="#"><i class="fa-solid fa-user"></i><small class="ms-2">Login</small></a>
             </div>  
