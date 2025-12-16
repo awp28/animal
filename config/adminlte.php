@@ -254,7 +254,7 @@ return [
             'label_color' => 'success',
         ],
         [
-            'text'        => 'animals',
+            'text'        => 'Animals',
             'url'         => 'admin/animals',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 2,
