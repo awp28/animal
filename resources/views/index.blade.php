@@ -136,107 +136,75 @@
                     </div>
                     <div class="tab-content">
                         <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row g-4">
+                            <div class="row g-2">
                                 <div class="col-lg-12">
-                                    <div class="row g-4">
-                                        <div class="" style="width: 27rem;">
-                                            <div class="ratio ratio-16x9">
-                                                <img src="img/qoy.jpg" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
-                                            </div>
-                                            <div class="card-body border border-primary">
-                                                <h5 class="card-title">Qo'chqorlar</h5>
-                                                <p class="card-text">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <div class="row g-2">
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <div class="product-card">
+                                                <div class="product-image-wrapper">
+                                                    <div class="ratio ratio-16x9">
+                                                        <img src="img/qoy.jpg" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="" style="width: 27rem;">
-                                            <div class="ratio ratio-16x9">
-                                                <img src="img/barra.jpg" class="w-100 h-100 object-fit-cover" alt="...">
-                                            </div>
-                                            <div class="card-body border border-primary">
-                                                <h5 class="card-title">Qo'chqorlar</h5>
-                                                <p class="card-text">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="" style="width: 27rem;">
-                                            <img class="card-img-top" src="img/bitta.jpg" alt="Card image cap">
-                                            <div class="card-body border border-primary">
-                                                <h5 class="card-title">Qo'chqorlar</h5>
-                                                <p class="card-text">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- <div class="col-md-6 col-lg-4 col-xl-4">
-                                            <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <img src="img/qoy.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                                </div>
-                                                <div class="p-4 border border-primary border-top-0 rounded-bottom">
-                                                    <h4>Qo'chqorlar</h4>
-                                                    <p>11 oylik qochqorlar sotiladi</p>
-                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                <div class="card-body border border-primary rounded-bottom">
+                                                    <h5 class="card-title mb-2">Qo'chqorlar</h5>
+                                                    <p class="card-text text-muted small mb-3">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
+                                                    <div class="d-flex justify-content-between align-items-center">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                        <a href="#" class="btn btn-primary btn-sm">Batafsil</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div> -->
-                                        <div class="" style="width: 27rem;">
-                                            <div class="ratio ratio-16x9">
-                                                <img src="img/qoy.jpg" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
-                                            </div>
-                                            <div class="card-body border border-primary">
-                                                <h5 class="card-title">Qo'chqorlar</h5>
-                                                <p class="card-text">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <!-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> -->
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <div class="product-card">
+                                                <div class="product-image-wrapper">
+                                                    <div class="ratio ratio-16x9">
+                                                        <img src="img/barra.jpg" class="w-100 h-100 object-fit-cover" alt="...">
+                                                    </div>
                                                 </div>
-                                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                                <div class="card-body border border-primary rounded-bottom">
+                                                    <h5 class="card-title mb-2">Qo'chqorlar</h5>
+                                                    <p class="card-text text-muted small mb-3">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn btn-primary btn-sm">Batafsil</a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="" style="width: 27rem;">
-                                            <div class="ratio ratio-16x9">
-                                                <img src="img/qoy.jpg" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
-                                            </div>
-                                            <div class="card-body border border-primary">
-                                                <h5 class="card-title">Qo'chqorlar</h5>
-                                                <p class="card-text">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <!-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> -->
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <div class="product-card">
+                                                <div class="product-image-wrapper">
+                                                    <div class="ratio ratio-16x9">
+                                                        <img src="img/bitta.jpg" class="w-100 h-100 object-fit-cover card-img-top" alt="Card image cap">
+                                                    </div>
                                                 </div>
-                                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                                <div class="card-body border border-primary rounded-bottom">
+                                                    <h5 class="card-title mb-2">Qo'chqorlar</h5>
+                                                    <p class="card-text text-muted small mb-3">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn btn-primary btn-sm">Batafsil</a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="" style="width: 27rem;">
-                                            <div class="ratio ratio-16x9">
-                                                <img src="img/qoy.jpg" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
-                                            </div>
-                                            <div class="card-body border border-primary">
-                                                <h5 class="card-title">Qo'chqorlar</h5>
-                                                <p class="card-text">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <!-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> -->
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
+                                            <div class="product-card">
+                                                <div class="product-image-wrapper">
+                                                    <div class="ratio ratio-16x9">
+                                                        <img src="img/qoy.jpg" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
+                                                    </div>
                                                 </div>
-                                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                                <div class="card-body border border-primary rounded-bottom">
+                                                    <h5 class="card-title mb-2">Qo'chqorlar</h5>
+                                                    <p class="card-text text-muted small mb-3">11 oylik qo'chqorla sotuvda 1kg 150 000 dan</p>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
+                                                        <a href="#" class="btn btn-primary btn-sm">Batafsil</a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

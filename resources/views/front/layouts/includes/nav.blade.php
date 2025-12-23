@@ -11,8 +11,8 @@
             </div>  
         </div>
     </div>
-    <div class="px-4">
-        <nav class="navbar navbar-light bg-white navbar-expand-xl">
+    <div style="background: rgb(94, 119, 74);">
+        <nav class="navbar navbar-light navbar-expand-xl px-4">
             <a href="index.html" class="navbar-brand"><h6 class="text-primary display-6">SellMyLivestock</h6></a>
             <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars text-primary"></span>

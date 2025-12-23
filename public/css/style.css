@@ -241,6 +241,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
 .carousel-item {
@@ -287,14 +288,14 @@
 @media (min-width: 992px) {
     .hero-header,
     .page-header {
-        margin-top: 152px !important;
+        margin-top: 106px !important;
     }
 }
 
 @media (max-width: 992px) {
     .hero-header,
     .page-header {
-        margin-top: 97px !important
+        margin-top: 106px !important
     }
 }
 /*** Hero Header end ***/
@@ -563,3 +564,83 @@
     background: #333 !important;
     color: var(--bs-primary) !important;
 }
+
+/*** Product Cards Start ***/
+.product-card {
+    height: 100%;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.product-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-image-wrapper {
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.product-image-wrapper img {
+    transition: transform 0.6s ease;
+}
+
+.product-card:hover .product-image-wrapper img {
+    transform: scale(1.03);
+}
+
+.product-card .card-body {
+    padding: 1rem;
+    background: white;
+    transition: background 0.5s ease;
+}
+
+.product-card:hover .card-body {
+    background: #fafafa;
+}
+
+.product-card .card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    transition: color 0.5s ease;
+}
+
+.product-card:hover .card-title {
+    color: rgb(94, 119, 74);
+}
+
+.product-card .card-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.product-card .btn-primary {
+    background: rgb(94, 119, 74);
+    border: none;
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: background 0.5s ease;
+    border-radius: 5px;
+}
+
+.product-card .btn-primary:hover {
+    background: rgb(84, 109, 64);
+}
+
+.product-card .border-primary {
+    border-color: rgb(94, 119, 74) !important;
+    border-width: 2px;
+    transition: border-color 0.5s ease;
+}
+
+.product-card:hover .border-primary {
+    border-color: rgb(84, 109, 64) !important;
+}
+/*** Product Cards End ***/

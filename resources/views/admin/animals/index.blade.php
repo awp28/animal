@@ -34,7 +34,11 @@
                         @foreach ($animals as $animal)
                             <tr>
                                 <td>{{$animal->id}}</td>
-                                <td>{{$animal->img}}</td>
+                                <td>
+                                    @if($animal->img)
+                                    <img src="{{ asset('storage/'.$animal->img) }}" width="200" />
+                                    @endif
+                                </td>
                                 <td>{{$animal->title}}</td>
                                 <td>{{$animal->description}}</td>
                                 <td>{{$animal->cost}}$</td>

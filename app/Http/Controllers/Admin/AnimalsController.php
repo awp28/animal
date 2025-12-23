@@ -22,7 +22,27 @@ class AnimalsController extends Controller
 
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'title' => 'required',
+            'description' => 'required',
+            'cost' => 'required',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+        ]);
+
+        $imagePath = null;
+
+        if ($request->hasFile('image')) {
+            $imagePath = $request->file('image')->store('animals', 'public');
+        }
+
+        Animal::create([
+            'title' => $request->title,
+            'description' => $request->description,
+            'cost' => $request->cost,
+            'img' => $imagePath,
+        ]);
+    
+        return redirect()->route('animals.index');
     }
 
     public function show($id)

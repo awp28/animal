@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-<form action="{{ route('users.store') }}" method="post" enctype="multipart/form-data">
+<form action="{{ route('animals.store') }}" method="post" enctype="multipart/form-data">
     @csrf()
     <div class="card card-primary card-outline card-outline-tabs">
         <div class="card-body">
@@ -16,7 +16,7 @@
                 <div class="tab-pane fade show active" id="custom-tabs-three-home" role="tabpanel" aria-labelledby="custom-tabs-three-home-tab">
                     <div class="form-group">
                         <label for="title">Title</label>
-                        <input class="form-control" name="title_uz" placeholder="Qo'chqorlar">
+                        <input class="form-control" name="title" placeholder="Qo'chqorlar">
                     </div>
                     <div class="form-group">
                         <label>Description</label>
