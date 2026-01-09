@@ -53,16 +53,42 @@ class AnimalsController extends Controller
 
     public function edit($id)
     {
-        //
+        $animal = Animal::findOrFail($id); 
+        return view('admin.animals.edit', compact('animal'));
     }
 
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'title' => 'required',
+            'description' => 'required',
+            'cost' => 'required',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+        ]);
+
+        $animal = Animal::findOrFail($id);
+        $imagePath = null;
+
+        if ($request->hasFile('image')) {
+            $imagePath = $request->file('image')->store('animals', 'public');
+        }
+
+        
+        
+        $animal->title = $request->input('title');
+        $animal->description = $request->input('description');
+        $animal->cost = $request->input('cost');
+        $animal->img = $imagePath;
+        $animal->save();
+        return redirect()->route('animals.index');
     }
+
 
     public function destroy($id)
     {
-        //
+        $animal = Animal::findOrFail($id);
+        
+        $animal->delete();
+        return redirect()->route('animals.index');
     }
 }

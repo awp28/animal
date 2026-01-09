@@ -28,6 +28,7 @@
                             <th>Title</th>
                             <th>description</th>
                             <th>cost</th>
+                            <th>$$$</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -36,12 +37,24 @@
                                 <td>{{$animal->id}}</td>
                                 <td>
                                     @if($animal->img)
-                                    <img src="{{ asset('storage/'.$animal->img) }}" width="200" />
+                                        <img src="{{ asset('storage/'.$animal->img) }}" width="200" />
                                     @endif
                                 </td>
                                 <td>{{$animal->title}}</td>
                                 <td>{{$animal->description}}</td>
                                 <td>{{$animal->cost}}$</td>
+                                <td>
+                                    <a href="{{ route('animals.show', $animal->id) }}" class="btn btn-info btn-sm">View</a>
+                                    <a href="{{ route('animals.edit', $animal->id) }}" class="btn btn-warning btn-sm">Edit</a>
+                                    <form action="{{ route('animals.destroy', $animal->id) }}" method="POST" class="d-inline">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class="btn btn-danger btn-sm"
+                                            onclick="return confirm('Are you sure?')">Delete
+                                        </button>
+                                    </form>
+                                </td>
+
                             </tr>
                         @endforeach
                     </tbody>
