@@ -83,6 +83,7 @@ class AnimalsController extends Controller
         return redirect()->route('animals.index');
     }
 
+
     public function destroy($id)
     {
         $animal = Animal::findOrFail($id);

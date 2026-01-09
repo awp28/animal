@@ -77,6 +77,10 @@
                                 </div>
                             </div>
                         </div>
+                        <a href="/news" 
+                        class="btn btn-success btn-sm mt-2 fs-5 fw-normal fw-bold-hover">
+                            View All <i class="fas fa-arrow-right"></i>
+                        </a>
                         <div id="tab-2" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-lg-12">
