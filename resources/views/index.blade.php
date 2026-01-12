@@ -55,7 +55,7 @@
                                             <div class="col-lg-3 col-md-6 col-sm-12">
                                                 <div class="product-card">
                                                     <div class="product-image-wrapper">
-                                                        <div class="ratio ratio-16x9">
+                                                        <div class="ratio ratio-4x3">
                                                             @if($animal->img)
                                                             <img src="{{ asset('storage/'.$animal->img) }}" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
                                                             
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                         <a href="/news" 
-                        class="btn btn-success btn-sm mt-2 fs-5 fw-normal fw-bold-hover">
+                        class="btn btn-warning btn-sm mt-2 fs-5 fw-normal fw-bold-hover">
                             View All <i class="fas fa-arrow-right"></i>
                         </a>
                         <div id="tab-2" class="tab-pane fade show p-0">

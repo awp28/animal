@@ -11,7 +11,9 @@ class AnimalsController extends Controller
     
     public function index()
     {
-        $animals=Animal::all();
+        $animals = Animal::select('id', 'img', 'title', 'description', 'cost')
+        ->orderBy('id', 'desc')
+        ->paginate(10);
         return view('admin.animals.index', compact('animals'));
     }
  
