@@ -44,7 +44,7 @@
             <div class="container">
                 <div class="tab-class text-center">
                     <div class="text-center mx-auto mb-5" style="max-width: 700px;">
-                        <h1 class="display-4">Bestseller Products</h1>
+                        <h1 class="display-4">Trenddagi hayvonlar</h1>
                     </div>
                     <div class="tab-content">
                         <div id="tab-1" class="tab-pane fade show p-0 active">
