@@ -66,11 +66,6 @@
                                             </div>
                                         </div>
                                         <div class="listing-details bg-light p-3">
-                                            <div class="d-flex align-items-center mb-2">
-                                                <i class="fas fa-lock text-success me-2"></i>
-                                                <span class="text-muted small">Members Access</span>
-                                                <a href="#" class="text-success text-decoration-none ms-2 small">Login for more info</a>
-                                            </div>
                                             <p class="mb-2 text-dark fw-semibold">{{$animal->title}}</p>
                                             <p class="mb-2 text-muted small">{{$animal->description}}</p>
                                             <a href="#" class="text-success text-decoration-none small">£ Login for pricing</a>

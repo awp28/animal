@@ -20,7 +20,7 @@
             <div class="collapse navbar-collapse " id="navbarCollapse">
                 <div class="navbar-nav mx-auto">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Browse Listings</a>
-                    <a href="shop.html" class="nav-item nav-link">Secure Payments</a>
+                    <a href="shop.html" class="nav-item nav-link">About us</a>
                     <a href="shop-detail.html" class="nav-item nav-link">Memberships</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News & More</a>
