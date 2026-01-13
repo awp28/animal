@@ -13,5 +13,9 @@ class HomeController extends Controller
         return view('index', compact('animals'));
     }
 
-
+    public function listings()
+    {
+        $animals = Animal::all();
+        return view('listings', compact('animals'));
+    }
 }

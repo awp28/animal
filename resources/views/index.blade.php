@@ -75,7 +75,7 @@
                             </div>
                         </div>
                         <div class="text-center mt-4">
-                            <a href="/news" class="btn btn-warning px-4 py-2">
+                            <a href="{{ route('listings') }}" class="btn btn-warning px-4 py-2">
                                 View All Listings
                             </a>
                         </div>
