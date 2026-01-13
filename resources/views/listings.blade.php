@@ -104,7 +104,7 @@
                 <!-- Main Content Area -->
                 <div class="col-lg-7 col-md-9 ps-0">
                     <!-- Promotional Banner -->
-                    <div class="bg-success text-white p-3 rounded mb-4 d-flex justify-content-between align-items-center mt-5" style="width: 729px; height: 90px; background: rgb(94, 119, 74);">
+                    <div class="text-white p-3 rounded mb-4 d-flex justify-content-between align-items-center mt-5 ms-2" style="width: 720px; height: 90px; background: rgb(94, 119, 74);">
                         <div>
                             <strong>Not finding what you're looking for?</strong> Take the hassle out of trading with specialist support.
                         </div>
@@ -112,7 +112,7 @@
                     </div>
 
                     <!-- Animal Listings Grid -->
-                    <div class="row g-1">
+                    <div class="row g-1" style="row-gap: 20px;">
                         @foreach ($animals as $animal)
                             <div class="col-md-6 col-lg-4">
                                 <div class="product-card-listing">
@@ -127,7 +127,7 @@
                                             @endif
                                         </div>
                                         <div class="position-absolute top-0 start-0 m-2">
-                                            <span class="badge bg-success px-3 py-2">FOR SALE</span>
+                                            <span class="badge px-3 py-2" style="background: rgb(94, 119, 74);">FOR SALE</span>
                                         </div>
                                     </div>
                                     <div class="listing-details bg-light p-3">
