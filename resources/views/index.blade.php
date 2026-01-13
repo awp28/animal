@@ -44,43 +44,46 @@
             <div class="container">
                 <div class="tab-class text-center">
                     <div class="text-center mx-auto mb-5" style="max-width: 700px;">
-                        <h1 class="display-4">Trenddagi hayvonlar</h1>
+                        <h1 class="display-4">Eng Mashhurlari</h1>
                     </div>
                     <div class="tab-content">
                         <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row g-2">
-                                <div class="col-lg-12">
-                                    <div class="row g-2">
-                                        @foreach ($animals as $animal)
-                                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                                <div class="product-card">
-                                                    <div class="product-image-wrapper">
-                                                        <div class="ratio ratio-4x3">
-                                                            @if($animal->img)
-                                                            <img src="{{ asset('storage/'.$animal->img) }}" class="w-100 h-100 object-fit-cover card-img-top" alt="...">
-                                                            
-                                                            @endif
-                                                        </div>
-                                                    </div>
-                                                    <div class="card-body border border-primary rounded-bottom">
-                                                        <h5 class="card-title mb-2">{{$animal->title}}</h5>
-                                                        <p class="card-text text-muted small mb-3">{{$animal->description}}</p>
-                                                        <div class="d-flex justify-content-between align-items-center">
-                                                            <p class="text-dark fs-5 fw-bold mb-0">{{$animal->cost}}$</p>
-                                                            <a href="#" class="btn btn-primary btn-sm">Batafsil</a>
-                                                        </div>
-                                                    </div>
+                            <div class="owl-carousel animal-carousel justify-content-center">
+                                @foreach ($animals as $animal)
+                                    <div class="product-card-listing">
+                                        <div class="product-image-wrapper position-relative">
+                                            <div class="ratio ratio-4x3">
+                                                @if($animal->img)
+                                                <img src="{{ asset('storage/'.$animal->img) }}" class="w-100 h-100 object-fit-cover" alt="{{$animal->title}}">
+                                                @else
+                                                <div class="w-100 h-100 bg-light d-flex align-items-center justify-content-center">
+                                                    <span class="text-muted">Rasm yo'q</span>
                                                 </div>
+                                                @endif
                                             </div>
-                                        @endforeach
+                                            <div class="position-absolute top-0 start-0 m-2">
+                                                <span class="badge bg-success px-3 py-2">FOR SALE</span>
+                                            </div>
+                                        </div>
+                                        <div class="listing-details bg-light p-3">
+                                            <div class="d-flex align-items-center mb-2">
+                                                <i class="fas fa-lock text-success me-2"></i>
+                                                <span class="text-muted small">Members Access</span>
+                                                <a href="#" class="text-success text-decoration-none ms-2 small">Login for more info</a>
+                                            </div>
+                                            <p class="mb-2 text-dark fw-semibold">{{$animal->title}}</p>
+                                            <p class="mb-2 text-muted small">{{$animal->description}}</p>
+                                            <a href="#" class="text-success text-decoration-none small">£ Login for pricing</a>
+                                        </div>
                                     </div>
-                                </div>
+                                @endforeach
                             </div>
                         </div>
-                        <a href="/news" 
-                        class="btn btn-warning btn-sm mt-2 fs-5 fw-normal fw-bold-hover">
-                            View All <i class="fas fa-arrow-right"></i>
-                        </a>
+                        <div class="text-center mt-4">
+                            <a href="/news" class="btn btn-warning px-4 py-2">
+                                View All Listings
+                            </a>
+                        </div>
                         <div id="tab-2" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-lg-12">

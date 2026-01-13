@@ -111,6 +111,46 @@
         }
     });
 
+    // animal listings carousel
+    $(".animal-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1500,
+        center: false,
+        dots: true,
+        loop: true,
+        margin: 0.6,
+        stagePadding: 50,
+        nav : false,
+        responsiveClass: true,
+        responsive: {
+            0:{
+                items:1,
+                stagePadding: 0,
+                margin: 0.6
+            },
+            576:{
+                items:1,
+                stagePadding: 0,
+                margin: 0.6
+            },
+            768:{
+                items:2,
+                stagePadding: 30,
+                margin: 0.6
+            },
+            992:{
+                items:3,
+                stagePadding: 40,
+                margin: 0.6
+            },
+            1200:{
+                items:3,
+                stagePadding: 50,
+                margin: 0.6
+            }
+        }
+    });
+
 
     // Modal Video
     $(document).ready(function () {
