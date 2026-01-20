@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/listings', [HomeController::class, 'listings'])->name('listings');
+Route::get('/animals', [HomeController::class, 'animals'])->name('animals');
 
 Auth::routes();
 
