@@ -738,3 +738,31 @@
     background: rgb(84, 109, 64);
 }
 /*** Listing Cards End ***/
+
+.card-hover {
+      transition: all 0.35s ease;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    
+    .card-hover:hover {
+      transform: translateY(0px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18) !important;
+    }
+    
+    .card-img-container {
+      overflow: hidden;
+    }
+    
+    .card-img-container img {
+      transition: transform 0.4s ease;
+    }
+    
+    .card-hover .card-img-container img {
+      transform: scale(1.08);
+    }
+    
+    .price {
+      font-size: 1.3rem;
+      font-weight: 700;
+    }

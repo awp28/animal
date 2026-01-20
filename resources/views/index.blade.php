@@ -384,211 +384,170 @@
         <!-- Vesitable Shop End -->
 
         <!-- Bestsaler Product Start -->
-        <div class="container-fluid">
-            <div class="container py-5">
-                <div class="text-center mx-auto mb-5" style="max-width: 700px;">
-                    <h1 class="display-4">Bestseller Products</h1>
-                    <p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="p-4 rounded bg-light">
-                            <div class="row align-items-center">
-                                <div class="col-6">
-                                    <img src="img/best-product-1.jpg" class="img-fluid rounded-circle w-100" alt="">
-                                </div>
-                                <div class="col-6">
-                                    <a href="#" class="h5">Organic Tomato</a>
-                                    <div class="d-flex my-3">
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <h4 class="mb-3">3.12 $</h4>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="p-4 rounded bg-light">
-                            <div class="row align-items-center">
-                                <div class="col-6">
-                                    <img src="img/best-product-2.jpg" class="img-fluid rounded-circle w-100" alt="">
-                                </div>
-                                <div class="col-6">
-                                    <a href="#" class="h5">Organic Tomato</a>
-                                    <div class="d-flex my-3">
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <h4 class="mb-3">3.12 $</h4>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="p-4 rounded bg-light">
-                            <div class="row align-items-center">
-                                <div class="col-6">
-                                    <img src="img/best-product-3.jpg" class="img-fluid rounded-circle w-100" alt="">
-                                </div>
-                                <div class="col-6">
-                                    <a href="#" class="h5">Organic Tomato</a>
-                                    <div class="d-flex my-3">
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <h4 class="mb-3">3.12 $</h4>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="p-4 rounded bg-light">
-                            <div class="row align-items-center">
-                                <div class="col-6">
-                                    <img src="img/best-product-4.jpg" class="img-fluid rounded-circle w-100" alt="">
-                                </div>
-                                <div class="col-6">
-                                    <a href="#" class="h5">Organic Tomato</a>
-                                    <div class="d-flex my-3">
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <h4 class="mb-3">3.12 $</h4>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="p-4 rounded bg-light">
-                            <div class="row align-items-center">
-                                <div class="col-6">
-                                    <img src="img/best-product-5.jpg" class="img-fluid rounded-circle w-100" alt="">
-                                </div>
-                                <div class="col-6">
-                                    <a href="#" class="h5">Organic Tomato</a>
-                                    <div class="d-flex my-3">
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <h4 class="mb-3">3.12 $</h4>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="p-4 rounded bg-light">
-                            <div class="row align-items-center">
-                                <div class="col-6">
-                                    <img src="img/best-product-6.jpg" class="img-fluid rounded-circle w-100" alt="">
-                                </div>
-                                <div class="col-6">
-                                    <a href="#" class="h5">Organic Tomato</a>
-                                    <div class="d-flex my-3">
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <h4 class="mb-3">3.12 $</h4>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="text-center">
-                            <img src="img/fruite-item-1.jpg" class="img-fluid rounded" alt="">
-                            <div class="py-4">
-                                <a href="#" class="h5">Organic Tomato</a>
-                                <div class="d-flex my-3 justify-content-center">
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="text-center">
-                            <img src="img/fruite-item-2.jpg" class="img-fluid rounded" alt="">
-                            <div class="py-4">
-                                <a href="#" class="h5">Organic Tomato</a>
-                                <div class="d-flex my-3 justify-content-center">
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="text-center">
-                            <img src="img/fruite-item-3.jpg" class="img-fluid rounded" alt="">
-                            <div class="py-4">
-                                <a href="#" class="h5">Organic Tomato</a>
-                                <div class="d-flex my-3 justify-content-center">
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="text-center">
-                            <img src="img/fruite-item-4.jpg" class="img-fluid rounded" alt="">
-                            <div class="py-2">
-                                <a href="#" class="h5">Organic Tomato</a>
-                                <div class="d-flex my-3 justify-content-center">
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star text-primary"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                                <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+       <div class="container-fluid bg-white py-5">
+    <div class="container">
+      <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+        <h1 class="display-4 fw-bold">Chorva uchun eng ko‘p sotiladigan yemlar</h1>
+        <p class="lead text-muted">
+          Mol va qo‘ylar uchun foydali, vitaminlarga boy va fermerlar tomonidan sinovdan o‘tgan ozuqalar.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- 1. Arpa -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 card-hover shadow-sm border-0">
+            <div class="card-img-container ratio ratio-4x3">
+              <img src="img/arpa.jpg" class="img-fluid object-fit-cover" alt="Arpa">
             </div>
+            <div class="card-body text-center">
+              <small class="text-muted d-block mb-1">Taxminan 6 tonna</small>
+              <h5 class="card-title mb-2">Arpa</h5>
+              <p class="text-muted small mb-3">
+                Mol va qo‘ylar uchun juda foydali, energiya beradi
+              </p>
+            </div>
+            <div class="card-footer bg-white border-0 text-center pt-0">
+              <span class="text-primary price">3 500 000 so‘m</span>
+            </div>
+          </div>
         </div>
-        <!-- Bestsaler Product End -->
+
+        <!-- 2. Bug‘doy -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 card-hover shadow-sm border-0">
+            <div class="card-img-container ratio ratio-4x3">
+              <img src="img/bugdoy.jpg" class="img-fluid object-fit-cover" alt="Bug‘doy">
+            </div>
+            <div class="card-body text-center">
+              <small class="text-muted d-block mb-1">Taxminan 7 tonna</small>
+              <h5 class="card-title mb-2">Bug‘doy</h5>
+              <p class="text-muted small mb-3">
+                Arzon va mollarni yaxshi semirtiradi
+              </p>
+            </div>
+            <div class="card-footer bg-white border-0 text-center pt-0">
+              <span class="text-primary price">3 000 000 so‘m</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Silaj -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 card-hover shadow-sm border-0">
+            <div class="card-img-container ratio ratio-4x3">
+              <img src="img/silaj.jpg" class="img-fluid object-fit-cover" alt="Silaj">
+            </div>
+            <div class="card-body text-center">
+              <small class="text-muted d-block mb-1">Taxminan 5 tonna</small>
+              <h5 class="card-title mb-2">Silaj</h5>
+              <p class="text-muted small mb-3">
+                Qimmat, lekin mol va qo‘ylarni juda zo‘r semirtiradi
+              </p>
+            </div>
+            <div class="card-footer bg-white border-0 text-center pt-0">
+              <span class="text-primary price">1 200 000 so‘m</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Yem (kombinatsiyalangan) -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 card-hover shadow-sm border-0">
+            <div class="card-img-container ratio ratio-4x3">
+              <img src="img/yem.webp" class="img-fluid object-fit-cover" alt="Yem">
+            </div>
+            <div class="card-body text-center">
+              <small class="text-muted d-block mb-1">Taxminan 13 tonna</small>
+              <h5 class="card-title mb-2">Yem (omuxта)</h5>
+              <p class="text-muted small mb-3">
+                Qishda mollar uchun ajoyib variant
+              </p>
+            </div>
+            <div class="card-footer bg-white border-0 text-center pt-0">
+              <span class="text-primary price">4 500 000 so‘m</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Somon -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 card-hover shadow-sm border-0">
+            <div class="card-img-container ratio ratio-4x3">
+              <img src="img/somon.webp" class="img-fluid object-fit-cover" alt="Somon">
+            </div>
+            <div class="card-body text-center">
+              <small class="text-muted d-block mb-1">Taxminan 3 tonna</small>
+              <h5 class="card-title mb-2">Somon</h5>
+              <p class="text-muted small mb-3">
+                Asosiy xashak, qishki ovqatlanish uchun zarur
+              </p>
+            </div>
+            <div class="card-footer bg-white border-0 text-center pt-0">
+              <span class="text-primary price">1 500 000 so‘m</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Jo‘xori -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 card-hover shadow-sm border-0">
+            <div class="card-img-container ratio ratio-4x3">
+              <img src="img/joxori.jpg" class="img-fluid object-fit-cover" alt="Jo‘xori">
+            </div>
+            <div class="card-body text-center">
+              <small class="text-muted d-block mb-1">Taxminan 25 tonna</small>
+              <h5 class="card-title mb-2">Jo‘xori</h5>
+              <p class="text-muted small mb-3">
+                Energiyaga boy, mol va qo‘ylarga yaxshi
+              </p>
+            </div>
+            <div class="card-footer bg-white border-0 text-center pt-0">
+              <span class="text-primary price">3 500 000 so‘m</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Beda -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 card-hover shadow-sm border-0">
+            <div class="card-img-container ratio ratio-4x3">
+              <img src="img/beda.jpg" class="img-fluid object-fit-cover" alt="Beda">
+            </div>
+            <div class="card-body text-center">
+              <small class="text-muted d-block mb-1">Taxminan 9 tonna</small>
+              <h5 class="card-title mb-2">Beda (press)</h5>
+              <p class="text-muted small mb-3">
+                Proteinli ozuqa, sut va go‘sht uchun juda foydali
+              </p>
+            </div>
+            <div class="card-footer bg-white border-0 text-center pt-0">
+              <span class="text-primary price">3 000 000 so‘m</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Kepak -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 card-hover shadow-sm border-0">
+            <div class="card-img-container ratio ratio-4x3">
+              <img src="img/kepag.jpg" class="img-fluid object-fit-cover" alt="Kepak">
+            </div>
+            <div class="card-body text-center">
+              <small class="text-muted d-block mb-1">Taxminan 1.5 tonna</small>
+              <h5 class="card-title mb-2">Kepak</h5>
+              <p class="text-muted small mb-3">
+                Arzon va mollarni tez semirtiradi
+              </p>
+            </div>
+            <div class="card-footer bg-white border-0 text-center pt-0">
+              <span class="text-primary price">1 000 000 so‘m</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
         <!-- Fact Start -->

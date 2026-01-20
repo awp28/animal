@@ -40,9 +40,7 @@
                             <td>{{ $animal->id }}</td>
                             <td>
                                 @if($animal->img)
-                                    <img src="{{ asset('storage/'.$animal->img) }}"
-                                         width="120"
-                                         class="img-thumbnail">
+                                    <img src="{{ asset('storage/'.$animal->img) }}" width="120" class="img-thumbnail">
                                 @else
                                     <span class="text-muted">No image</span>
                                 @endif
