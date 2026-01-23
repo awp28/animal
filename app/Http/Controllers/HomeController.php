@@ -10,8 +10,12 @@ class HomeController extends Controller
 {
     public function index()
     {
+        // Barcha hayvonlar va yemlarni olish
         $animals = Animal::all();
-        return view('index', compact('animals'));
+        $feeds = Feed::all();
+
+        // Viewga yuborish
+        return view('index', compact('animals', 'feeds'));
     }
 
     public function animals()

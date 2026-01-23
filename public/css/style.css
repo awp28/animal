@@ -739,30 +739,20 @@
 }
 /*** Listing Cards End ***/
 
-.card-hover {
-      transition: all 0.35s ease;
-      border-radius: 12px;
-      overflow: hidden;
-    }
-    
-    .card-hover:hover {
-      transform: translateY(0px);
-      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18) !important;
-    }
-    
-    .card-img-container {
-      overflow: hidden;
-    }
-    
-    .card-img-container img {
-      transition: transform 0.4s ease;
-    }
-    
-    .card-hover .card-img-container img {
-      transform: scale(1.08);
-    }
-    
-    .price {
-      font-size: 1.3rem;
-      font-weight: 700;
-    }
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.03); /* biroz ko‘tarish va kattalashtirish */
+    box-shadow: 0 15px 30px rgba(0,0,0,3); /* yumshoq soya */
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1); /* rasm biroz kattalashadi */
+}

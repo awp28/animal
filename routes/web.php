@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Auth;
 // Public routes
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/animals', [HomeController::class, 'animals'])->name('animals');
-
+Route::get('/view', [HomeController::class, 'view'])->name('view');
 Auth::routes();
 
 // Admin routes
