@@ -14,10 +14,10 @@ class HomeController extends Controller
         return view('index', compact('animals'));
     }
 
-    public function listings()
+    public function animals()
     {
         $animals = Animal::all();
-        return view('listings', compact('animals'));
+        return view('animals', compact('animals'));
     }
 
     public function view()

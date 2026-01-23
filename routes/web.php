@@ -13,8 +13,7 @@ use Illuminate\Support\Facades\Auth;
 
 // Public routes
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/listings', [HomeController::class, 'listings'])->name('listings');
-Route::get('/view', [HomeController::class, 'view'])->name('view');
+Route::get('/animals', [HomeController::class, 'animals'])->name('animals');
 
 Auth::routes();
 
