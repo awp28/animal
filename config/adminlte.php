@@ -261,6 +261,13 @@ return [
             'label_color' => 'success',
         ],
         [
+            'text'        => 'Feeds',
+            'url'         => 'admin/feeds',
+            'icon'        => 'far fa-fw fa-file',
+            'label'       => 3,
+            'label_color' => 'success',
+        ],
+        [
             'text'    => 'Users Management',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [

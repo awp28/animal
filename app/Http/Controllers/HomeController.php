@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Animal;
+use App\Models\Feed;
 
 class HomeController extends Controller
 {
@@ -17,5 +18,11 @@ class HomeController extends Controller
     {
         $animals = Animal::all();
         return view('listings', compact('animals'));
+    }
+
+    public function view()
+    {
+        $feeds = Feed::all();
+        return view('view', compact('feeds'));
     }
 }
