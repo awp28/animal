@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-    <form action="{{ route('users.store') }}" method="post" enctype="multipart/form-data">
+    <form action="{{ route('admin.users.store') }}" method="post" enctype="multipart/form-data">
         @csrf()
         <div class="card card-primary card-outline card-outline-tabs">
             <div class="card-header p-0 border-bottom-0">

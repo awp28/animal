@@ -12,7 +12,7 @@
             <div class="card">
                 <div class="card-header">
                     <h3 class="card-title">
-                        <a href="{{ route('news.create') }}" class="btn btn-primary btn-sm float-right">
+                        <a href="{{ route('admin.news.create') }}" class="btn btn-primary btn-sm float-right">
                             <span class="fas fa-fw fa-plus"></span>Янги яратиш
                         </a>
                     </h3>

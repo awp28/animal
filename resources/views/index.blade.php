@@ -387,36 +387,37 @@
 
 
 
-  <div class="container-fluid fruite py-5">
-            <div class="container">
-                <div class="text-center mx-auto mb-5" style="max-width: 700px;">
-                    <h1 class="display-4">Chorva uchun eng ko‘p sotiladigan yemlar</h1>
-                </div>
-
-                <div class="row g-4">
-                    @foreach ($feeds as $feed)
-                        <div class="col-6 col-md-4 col-lg-3">
-                            <div class="card h-100 shadow-sm">
-                                <div class="position-relative">
-                                    @if($feed->img)
-                                        <img src="{{ asset('storage/'.$feed->img) }}" class="card-img-top" style="height:200px; object-fit:cover;" alt="{{$feed->title}}">
-                                    @else
-                                        <div class="w-100" style="height:200px; background:#eee; display:flex; align-items:center; justify-content:center;">
-                                            <span class="text-muted">Rasm yo'q</span>
-                                        </div>
-                                    @endif
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ $feed->title }}</h5>
-                                    <p class="card-text small text-muted">{{ $feed->description }}</p>
-                                    <a href="#" class="text-success small">{{$feed->cost}}$</a>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
-            </div>
+<div class="container-fluid fruite py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+            <h1 class="display-4">Chorva uchun eng ko‘p sotiladigan yemlar</h1>
         </div>
+
+        <div class="row g-4">
+            @foreach ($feeds as $feed)
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card h-100 feed-card">
+                        <div class="position-relative">
+                            @if($feed->img)
+                                <img src="{{ asset('storage/'.$feed->img) }}" class="feed-img" alt="{{$feed->title}}">
+                            @else
+                                <div class="w-100 no-img">
+                                    <span class="text-muted">Rasm yo'q</span>
+                                </div>
+                            @endif
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">{{ $feed->title }}</h5>
+                            <p class="card-text">{{ $feed->description }}</p>
+                            <a href="#" class="card-cost">{{$feed->cost}}$</a>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+</div>
+
         <div class="text-center mt-4">
             <a href="{{ route('view') }}" class="btn btn-warning px-4 py-2">
                 View All Listings

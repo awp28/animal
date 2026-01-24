@@ -44,7 +44,7 @@ class AnimalsController extends Controller
             'img' => $imagePath,
         ]);
     
-        return redirect()->route('animals.index');
+        return redirect()->route('admin.animals.index');
     }
 
     public function show($id)
@@ -82,7 +82,7 @@ class AnimalsController extends Controller
         $animal->img = $imagePath;
         $animal->save();
         
-        return redirect()->route('animals.index');
+        return redirect()->route('admin.animals.index');
     }
 
 
@@ -90,6 +90,6 @@ class AnimalsController extends Controller
     {
         $animal = Animal::findOrFail($id);
         $animal->delete();
-        return redirect()->route('animals.index');
+        return redirect()->route('admin.animals.index');
     }
 }

@@ -12,10 +12,11 @@
     <!-- CARD HEADER -->
     <div class="card-header d-flex justify-content-between align-items-center">
 
-        <a href="{{ route('animals.create') }}"
-                class="btn btn-primary btn-sm mr-2">
+        <!-- CREATE BUTTON -->
+        <a href="{{ route('admin.animals.create') }}"
+           class="btn btn-primary btn-sm mr-2">
             <span class="fas fa-plus"></span>
-             Янги яратиш
+            Янги яратиш
         </a>
     </div>
 
@@ -46,20 +47,20 @@
                                 @endif
                             </td>
                             <td>
-                                <a href="{{ route('animals.show', $animal->id) }}">
+                                <a href="{{ route('admin.animals.show', $animal->id) }}">
                                     {{ $animal->title }}
                                 </a>
                             </td>
                             <td>{{ Str::limit($animal->description, 50) }}</td>
                             <td>{{ number_format($animal->cost, 2) }} $</td>
                             <td>
-                                <a href="{{ route('animals.show', $animal->id) }}"
+                                <a href="{{ route('admin.animals.show', $animal->id) }}"
                                    class="btn btn-info btn-sm">View</a>
 
-                                <a href="{{ route('animals.edit', $animal->id) }}"
+                                <a href="{{ route('admin.animals.edit', $animal->id) }}"
                                    class="btn btn-warning btn-sm">Edit</a>
 
-                                <form action="{{ route('animals.destroy', $animal->id) }}"
+                                <form action="{{ route('admin.animals.destroy', $animal->id) }}"
                                       method="POST"
                                       class="d-inline">
                                     @csrf
@@ -85,15 +86,13 @@
         <!-- PAGINATION -->
         <div class="d-flex justify-content-between align-items-center mt-3">
             <small class="text-muted">
-                Showing {{ $animals->firstItem() }} - {{ $animals->lastItem() }}
-                of {{ $animals->total() }}
+                Showing {{ $animals->firstItem() ?? 0 }} - {{ $animals->lastItem() ?? 0 }}
+                of {{ $animals->total() ?? 0 }}
             </small>
 
             {{ $animals->links() }}
         </div>
     </div>
 </div>
-
-
 
 @endsection

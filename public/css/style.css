@@ -739,20 +739,66 @@
 }
 /*** Listing Cards End ***/
 
-.card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* Butun card */
+.feed-card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08); /* juda yengil doimiy soya */
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
     cursor: pointer;
 }
 
-.card:hover {
-    transform: translateY(-5px) scale(1.03); /* biroz ko‘tarish va kattalashtirish */
-    box-shadow: 0 15px 30px rgba(0,0,0,3); /* yumshoq soya */
+/* Hover effekti - faqat yengil shadow, rasm kattalashmaydi */
+.feed-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.12); /* juda yumshoq hover soya */
+    transform: translateY(0); /* juda kichik ko‘tarilish, minimal */
 }
 
-.card-img-top {
-    transition: transform 0.3s ease;
+/* Rasm */
+.feed-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    /* transform olib tashlandi */
 }
 
-.card:hover .card-img-top {
-    transform: scale(1); /* rasm biroz kattalashadi */
+/* Rasm bo‘lmasa */
+.no-img {
+    height: 180px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card body */
+.feed-card .card-body {
+    padding: 1rem;
+}
+
+/* Title */
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 0.3rem;
+}
+
+/* Description */
+.card-text {
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+}
+
+/* Narx */
+.card-cost {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #28a745;
+    text-decoration: none;
 }
