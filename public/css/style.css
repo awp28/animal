@@ -746,7 +746,7 @@
     overflow: hidden;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.08); /* juda yengil doimiy soya */
-    transition: box-shadow 1.25s ease, transform 1.25s ease;
+    transition: box-shadow 1.20s ease, transform 0.9s ease;
     cursor: pointer;
 }
 
