@@ -4,38 +4,31 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\NewsController;
 use App\Http\Controllers\Admin\AnimalsController;
+use App\Http\Controllers\Admin\AgriTechController;
 use App\Http\Controllers\Admin\PermissionsController;
 use App\Http\Controllers\Admin\RolesController;
 use App\Http\Controllers\Admin\UsersController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
+// FRONTEND ROUTES
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/listings', [HomeController::class, 'listings'])->name('listings');
 
+// AUTH ROUTES
 Auth::routes();
 
-Route::middleware(['auth'])->prefix('admin')->group(function () {
+// ADMIN PANEL ROUTES
+Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
 
-    Route::get('/', [AdminController::class, 'index'])->name('admin.index');
+    Route::get('/', [AdminController::class, 'index'])->name('index');
 
-    Route::resources([
-        'users'  => UsersController::class,
-        'roles'  => RolesController::class,
-        'permissions'  => PermissionsController::class,
-        'news'  => NewsController::class,
-        'animals' => AnimalsController::class,
-    ]);
+    // RESOURCES
+    Route::resource('users', UsersController::class);
+    Route::resource('roles', RolesController::class);
+    Route::resource('permissions', PermissionsController::class);
+    Route::resource('news', NewsController::class);
+    Route::resource('animals', AnimalsController::class);
+    Route::resource('agritech', AgriTechController::class);
 
 });
 

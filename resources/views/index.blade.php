@@ -262,122 +262,299 @@
         <!-- Fruits Shop End-->
 
         <!-- Vesitable Shop Start-->
-        <div class="container-fluid vesitable">
-            <div class="container py-5">
-                <h1 class="mb-0">Fresh Organic Vegetables</h1>
-                <div class="owl-carousel vegetable-carousel justify-content-center">
-                    <div class="border border-primary rounded position-relative vesitable-item">
-                        <div class="vesitable-img">
-                            <img src="img/vegetable-item-6.jpg" class="img-fluid w-100 rounded-top" alt="">
-                        </div>
-                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
-                        <div class="p-4 rounded-bottom">
-                            <h4>Parsely</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                            <div class="d-flex justify-content-between flex-lg-wrap">
-                                <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="border border-primary rounded position-relative vesitable-item">
-                        <div class="vesitable-img">
-                            <img src="img/vegetable-item-1.jpg" class="img-fluid w-100 rounded-top" alt="">
-                        </div>
-                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
-                        <div class="p-4 rounded-bottom">
-                            <h4>Parsely</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                            <div class="d-flex justify-content-between flex-lg-wrap">
-                                <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                            </div>
+        <div class="container py-4">
+        <!-- Sarlavha -->
+        <div class="text-center mb-5">
+            <h1 class="main-title">Qishloq Xo'jalik Mashinalari</h1>
+        </div>
+
+        <!-- Mashinalar qatori -->
+        <div class="row g-4">
+            <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <!-- kartalar -->
+            </div>
+            <!-- Traktor -->
+            <div class="col-lg-4 col-md-6">
+                <div class="machine-card">
+                    <div class="machine-img">
+                           <img src="img/tractor.jpg" class="img-fluid" alt="Tractor">
+                        <div class="kredit-badge">
+                            <i class="fas fa-credit-card me-1"></i> KREDIT MAVJUD
                         </div>
                     </div>
-                    <div class="border border-primary rounded position-relative vesitable-item">
-                        <div class="vesitable-img">
-                            <img src="img/vegetable-item-3.png" class="img-fluid w-100 rounded-top bg-light" alt="">
-                        </div>
-                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
-                        <div class="p-4 rounded-bottom">
-                            <h4>Banana</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                            <div class="d-flex justify-content-between flex-lg-wrap">
-                                <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                    <div class="machine-content">
+                        <h3 class="machine-title">Traktor</h3>
+                        <p class="text-muted">Yer haydash, ekin ekish va yuk tashish uchun universal texnika</p>
+                        
+                        <div class="price-section">
+                            <div class="price">400 000 000 so'm</div>
+                            <div class="monthly-payment">
+                                <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 3 500 000 so'm (12 oy)
                             </div>
                         </div>
-                    </div>
-                    <div class="border border-primary rounded position-relative vesitable-item">
-                        <div class="vesitable-img">
-                            <img src="img/vegetable-item-4.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        
+                        <div class="specs">
+                            <span class="spec-item">
+                                <i class="fas fa-bolt"></i> 120 ot kuchi
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-cogs"></i> Avtomatik
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-gas-pump"></i> Dizel
+                            </span>
                         </div>
-                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
-                        <div class="p-4 rounded-bottom">
-                            <h4>Bell Papper</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                            <div class="d-flex justify-content-between flex-lg-wrap">
-                                <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                        
+                        <button class="btn-details">
+                            <i class="fas fa-info-circle"></i> Batafsil ma'lumot
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kombayn -->
+            <div class="col-lg-4 col-md-6">
+                <div class="machine-card">
+                    <div class="machine-img">
+                        <img src="img/combine.jpg" class="img-fluid"  alt="Kombayn">
+                        <div class="kredit-badge">
+                            <i class="fas fa-credit-card me-1"></i> KREDIT MAVJUD
+                        </div>
+                    </div>
+                    <div class="machine-content">
+                        <h3 class="machine-title">Kombayn</h3>
+                        <p class="text-muted">Galla va ekinlarni tez va samarali yig'ish uchun maxsus texnika</p>
+                        
+                        <div class="price-section">
+                            <div class="price">480 000 000 so'm</div>
+                            <div class="monthly-payment">
+                                <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 4 200 000 so'm (12 oy)
                             </div>
                         </div>
-                    </div>
-                    <div class="border border-primary rounded position-relative vesitable-item">
-                        <div class="vesitable-img">
-                            <img src="img/vegetable-item-5.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        
+                        <div class="specs">
+                            <span class="spec-item">
+                                <i class="fas fa-tachometer-alt"></i> 8 gektar/kun
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-seedling"></i> 99% aniqlik
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-wind"></i> Havo tozalagich
+                            </span>
                         </div>
-                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
-                        <div class="p-4 rounded-bottom">
-                            <h4>Potatoes</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                            <div class="d-flex justify-content-between flex-lg-wrap">
-                                <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                        
+                        <button class="btn-details">
+                            <i class="fas fa-info-circle"></i> Batafsil ma'lumot
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Liteng Log Loader.jpg -->
+            <div class="col-lg-4 col-md-6">
+                <div class="machine-card">
+                    <div class="machine-img">
+                       <img src="img/Liteng Log Loader.jpg" class="img-fluid" alt="Liteng Log Loader.jpg">
+                        <div class="kredit-badge">
+                            <i class="fas fa-credit-card me-1"></i> KREDIT MAVJUD
+                        </div>
+                    </div>
+                    <div class="machine-content">
+                        <h3 class="machine-title">Liteng Log Loader.jpg</h3>
+                        <p class="text-muted">Urug'larni aniq va teng ekish uchun maxsus qurilma</p>
+                        
+                        <div class="price-section">
+                            <div class="price">455 000 000 so'm</div>
+                            <div class="monthly-payment">
+                                <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 3 980 000 so'm (12 oy)
                             </div>
                         </div>
-                    </div>
-                    <div class="border border-primary rounded position-relative vesitable-item">
-                        <div class="vesitable-img">
-                            <img src="img/vegetable-item-6.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        
+                        <div class="specs">
+                            <span class="spec-item">
+                                <i class="fas fa-bullseye"></i> ±2 mm aniqlik
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-ruler-combined"></i> 4 metr kenglik
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-sliders-h"></i> Sozlash mumkin
+                            </span>
                         </div>
-                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
-                        <div class="p-4 rounded-bottom">
-                            <h4>Parsely</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                            <div class="d-flex justify-content-between flex-lg-wrap">
-                                <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                        
+                        <button class="btn-details">
+                            <i class="fas fa-info-circle"></i> Batafsil ma'lumot
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Seeder-->
+            <div class="col-lg-4 col-md-6">
+                <div class="machine-card">
+                    <div class="machine-img">
+                        <img src="img/seeder.jpg" class="img-fluid"  alt="Seeder">
+                        <div class="kredit-badge">
+                            <i class="fas fa-credit-card me-1"></i> KREDIT MAVJUD
+                        </div>
+                    </div>
+                    <div class="machine-content">
+                        <h3 class="machine-title">Seeder</h3>
+                        <p class="text-muted">Tuproqni chuqur va sifatli haydash uchun mustahkam asbob</p>
+                        
+                        <div class="price-section">
+                            <div class="price">120 000 000 so'm</div>
+                            <div class="monthly-payment">
+                                <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 1 050 000 so'm (12 oy)
                             </div>
                         </div>
-                    </div>
-                    <div class="border border-primary rounded position-relative vesitable-item">
-                        <div class="vesitable-img">
-                            <img src="img/vegetable-item-5.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        
+                        <div class="specs">
+                            <span class="spec-item">
+                                <i class="fas fa-shield-alt"></i> Qattiq po'lat
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-ruler-vertical"></i> 30-40 sm chuqurlik
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-hard-hat"></i> Mustahkam
+                            </span>
                         </div>
-                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
-                        <div class="p-4 rounded-bottom">
-                            <h4>Potatoes</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                            <div class="d-flex justify-content-between flex-lg-wrap">
-                                <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                        
+                        <button class="btn-details">
+                            <i class="fas fa-info-circle"></i> Batafsil ma'lumot
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plough -->
+            <div class="col-lg-4 col-md-6">
+                <div class="machine-card">
+                    <div class="machine-img">
+                       <img src="img/plough.jpg" class="img-fluid" alt="Plough">
+                        <div class="kredit-badge">
+                            <i class="fas fa-credit-card me-1"></i> KREDIT MAVJUD
+                        </div>
+                    </div>
+                    <div class="machine-content">
+                        <h3 class="machine-title">Plough</h3>
+                        <p class="text-muted">Tuproqni yumshatish va begona o'tlarni yo'q qilish texnikasi</p>
+                        
+                        <div class="price-section">
+                            <div class="price">280 000 000 so'm</div>
+                            <div class="monthly-payment">
+                                <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 2 450 000 so'm (12 oy)
                             </div>
                         </div>
-                    </div>
-                    <div class="border border-primary rounded position-relative vesitable-item">
-                        <div class="vesitable-img">
-                            <img src="img/vegetable-item-6.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        
+                        <div class="specs">
+                            <span class="spec-item">
+                                <i class="fas fa-leaf"></i> Ekologik toza
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-compact-disc"></i> 12 ishchi disk
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-cogs"></i> Oson boshqarish
+                            </span>
                         </div>
-                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
-                        <div class="p-4 rounded-bottom">
-                            <h4>Parsely</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                            <div class="d-flex justify-content-between flex-lg-wrap">
-                                <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                        
+                        <button class="btn-details">
+                            <i class="fas fa-info-circle"></i> Batafsil ma'lumot
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sug'orish tizimi -->
+            <div class="col-lg-4 col-md-6">
+                <div class="machine-card">
+                    <div class="machine-img">
+                       <img src="img/paxta teradi.jpg" class="img-fluid" alt="Paxta teradi">
+                        <div class="kredit-badge">
+                            <i class="fas fa-credit-card me-1"></i> KREDIT MAVJUD
+                        </div>
+                    </div>
+                    <div class="machine-content">
+                        <h3 class="machine-title">Paxtani tez teradi</h3>
+                        <p class="text-muted">Avtomatik tomchilatib sug'orish tizimi, suvni tejaydi</p>
+                        
+                        <div class="price-section">
+                            <div class="price">350 000 000 so'm</div>
+                            <div class="monthly-payment">
+                                <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 3 060 000 so'm (12 oy)
                             </div>
                         </div>
+                        
+                        <div class="specs">
+                            <span class="spec-item">
+                                <i class="fas fa-tint"></i> 60% suv tejash
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-robot"></i> Avtomatik
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-mobile-alt"></i> Telefon boshqaruvi
+                            </span>
+                        </div>
+                        
+                        <button class="btn-details">
+                            <i class="fas fa-info-circle"></i> Batafsil ma'lumot
+                        </button>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Xususiyatlar -->
+        <div class="features mt-5">
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h5>2 Yil Kafolat</h5>
+                    <p class="text-muted">Barcha mashinalar uchun 2 yillik kafolat</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h5>Yetkazib Berish</h5>
+                    <p class="text-muted">O'zbekiston bo'ylab bepul yetkazib berish</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h5>Texnik Xizmat</h5>
+                    <p class="text-muted">24/7 texnik xizmat va ehtiyot qismlar</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h5>O'qitish</h5>
+                    <p class="text-muted">Bepul mashina boshqarish bo'yicha o'qitish</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kredit shartlari -->
+        <div class="alert alert-success mt-4" style="background: linear-gradient(45deg, #28a745, #20c997); color: white; border: none;">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h4 class="alert-heading mb-1">
+                        <i class="fas fa-percentage me-2"></i> Maxsus Kredit Taklifi!
+                    </h4>
+                    <p class="mb-0">0% dastlabki to'lov, 24 oygacha muddat, yillik 10% foiz stavkasi</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <button class="btn btn-light btn-lg">
+                        <i class="fas fa-file-contract me-2"></i> Ariza topshirish
+                    </button>
                 </div>
             </div>
         </div>

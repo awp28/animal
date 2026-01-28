@@ -261,6 +261,13 @@ return [
             'label_color' => 'success',
         ],
         [
+            'text'        => 'AgriTech',
+            'url'         => 'admin/agritech',
+            'icon'        => 'far fa-fw fa-file',
+            'label'       => 4,
+            'label_color' => 'success',
+        ],
+        [
             'text'    => 'Users Management',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [

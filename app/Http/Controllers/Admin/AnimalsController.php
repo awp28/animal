@@ -7,8 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Animal;
 
 class AnimalsController extends Controller
-{
-    
+{  
     public function index()
     {
         $animals = Animal::select('id', 'img', 'title', 'description', 'cost')
