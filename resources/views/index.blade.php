@@ -505,57 +505,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Xususiyatlar  😎😎😎-->
-        <div class="features mt-5">
-            <div class="row text-center">
-                <div class="col-md-3 mb-4">
-                    <div class="feature-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h5>2 Yil Kafolat</h5>
-                    <p class="text-muted">Barcha mashinalar uchun 2 yillik kafolat</p>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="feature-icon">
-                        <i class="fas fa-truck"></i>
-                    </div>
-                    <h5>Yetkazib Berish</h5>
-                    <p class="text-muted">O'zbekiston bo'ylab bepul yetkazib berish</p>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="feature-icon">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <h5>Texnik Xizmat</h5>
-                    <p class="text-muted">24/7 texnik xizmat va ehtiyot qismlar</p>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="feature-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <h5>O'qitish</h5>
-                    <p class="text-muted">Bepul mashina boshqarish bo'yicha o'qitish</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Kredit shartlari 😎😎😎 -->
-        <div class="alert alert-success mt-4" style="background: linear-gradient(45deg, #28a745, #20c997); color: white; border: none;">
-            <div class="row align-items-center">
-                <div class="col-md-8">
-                    <h4 class="alert-heading mb-1">
-                        <i class="fas fa-percentage me-2"></i> Maxsus Kredit Taklifi!
-                    </h4>
-                    <p class="mb-0">0% dastlabki to'lov, 24 oygacha muddat, yillik 10% foiz stavkasi</p>
-                </div>
-                <div class="col-md-4 text-md-end">
-                    <button class="btn btn-light btn-lg">
-                        <i class="fas fa-info-circle"></i>  Ariza topshirish
-                    </button>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- Vesitable Shop End -->
                  
