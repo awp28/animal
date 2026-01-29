@@ -261,1031 +261,305 @@
         </div>
         <!-- Fruits Shop End-->
 
+
         <!-- Vesitable Shop Start-->
-        <div class="container py-5">
-            <!-- Dynamic Background Header -->
-            <div class="agro-header mb-5 position-relative overflow-hidden rounded-4">
-                <div class="agro-overlay"></div>
-                <div class="position-relative text-center text-white py-5">
-                    <h1 class="display-4 fw-bold mb-3 animate-title">Qishloq Xo'jalik Texnikalari</h1>
-                    <p class="lead mb-4">Zamonaviy texnologiyalar bilan qishloq xo'jaligini avtomatlashtiring</p>
-                    
-                    <!-- Search Bar -->
-                    <div class="col-lg-6 mx-auto">
-                        <div class="input-group search-box">
-                            <input type="text" class="form-control form-control-lg" placeholder="Mashina nomini yoki xususiyatini qidiring...">
-                            <button class="btn btn-success btn-lg">
-                                <i class="fas fa-search"></i> Qidirish
-                            </button>
-                        </div>
-                    </div>
-                    
-                    <!-- Category Filter -->
-                    <div class="category-filter mt-4">
-                        <button class="btn btn-outline-light btn-sm active">Hammasi</button>
-                        <button class="btn btn-outline-light btn-sm">Traktorlar</button>
-                        <button class="btn btn-outline-light btn-sm">Yig'ish texnikasi</button>
-                        <button class="btn btn-outline-light btn-sm">Sug'orish</button>
-                        <button class="btn btn-outline-light btn-sm">Ekin ishlari</button>
-                    </div>
-                </div>
-            </div>
-        
-            <!-- Stats Counter -->
-            <div class="row stats-counter mb-5">
-                <div class="col-md-3 col-6">
-                    <div class="stat-card text-center">
-                        <div class="stat-number" data-count="150">0</div>
-                        <div class="stat-label">Sotilgan mashina</div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="stat-card text-center">
-                        <div class="stat-number" data-count="98">0</div>
-                        <div class="stat-label">Mijoz mamnuniyati %</div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="stat-card text-center">
-                        <div class="stat-number" data-count="24">0</div>
-                        <div class="stat-label">Soat xizmat</div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="stat-card text-center">
-                        <div class="stat-number" data-count="12">0</div>
-                        <div class="stat-label">Yil kafolat</div>
-                    </div>
-                </div>
-            </div>
-        
-            <!-- Advanced Filter Section -->
-            <div class="filter-section mb-4">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h4><i class="fas fa-filter me-2"></i> Mashinalarni Saralash</h4>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row g-2">
-                            <div class="col-md-4">
-                                <select class="form-select">
-                                    <option>Narx bo'yicha</option>
-                                    <option>Arzondan qimmatga</option>
-                                    <option>Qimmatdan arzonga</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4">
-                                <select class="form-select">
-                                    <option>Kredit muddati</option>
-                                    <option>12 oy</option>
-                                    <option>24 oy</option>
-                                    <option>36 oy</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4">
-                                <select class="form-select">
-                                    <option>Ish turi</option>
-                                    <option>Ekin ishlari</option>
-                                    <option>Yig'ish ishlari</option>
-                                    <option>Sug'orish</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            <!-- Machine Grid with New Features -->
-            <div class="row g-4">
-                <!-- Traktor Card with Enhanced Features -->
-                <div class="col-xl-4 col-lg-6">
-                    <div class="machine-card premium">
-                        <div class="badge-container">
-                            <span class="badge-premium">Premium</span>
-                            <span class="badge-discount">-15% chegirma</span>
-                        </div>
-                        <div class="machine-img">
-                            <div class="image-slider">
-                                <img src="img/tractor.jpg" class="img-fluid active" alt="Traktor">
-                                <img src="img/tractor.jpg" class="img-fluid" alt="Traktor detail">
-                            </div>
-                            <button class="wishlist-btn">
-                                <i class="far fa-heart"></i>
-                            </button>
-                            <div class="image-counter">1/2</div>
-                        </div>
-                        <div class="machine-content">
-                            <div class="machine-header">
-                                <h3 class="machine-title">Smart Tractor Pro</h3>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-text">4.5 (24 baho)</span>
-                                </div>
-                            </div>
-                            
-                            <p class="machine-desc">GPS navigatsiyali, avtomatik boshqaruvli zamonaviy traktor</p>
-                            
-                            <div class="price-section">
-                                <div class="d-flex align-items-center">
-                                    <div class="price">400 000 000 so'm</div>
-                                    <div class="old-price">470 000 000 so'm</div>
-                                </div>
-                                <div class="monthly-payment">
-                                    <i class="fas fa-calendar-alt me-2"></i>
-                                    <span class="fw-bold">Oylik to'lov:</span>
-                                    <span class="payment-amount">3 500 000 so'm</span>
-                                    <span class="payment-period">(12 oy)</span>
-                                </div>
-                                <div class="saving-info">
-                                    <i class="fas fa-piggy-bank me-1"></i>
-                                    70 000 000 so'm tejang!
-                                </div>
-                            </div>
-                            
-                            <div class="specs-grid">
-                                <div class="spec-item">
-                                    <i class="fas fa-bolt"></i>
-                                    <div>
-                                        <div class="spec-label">Quvvat</div>
-                                        <div class="spec-value">120 ot kuchi</div>
-                                    </div>
-                                </div>
-                                <div class="spec-item">
-                                    <i class="fas fa-gas-pump"></i>
-                                    <div>
-                                        <div class="spec-label">Yonilg'i</div>
-                                        <div class="spec-value">8.5 L/soat</div>
-                                    </div>
-                                </div>
-                                <div class="spec-item">
-                                    <i class="fas fa-wifi"></i>
-                                    <div>
-                                        <div class="spec-label">Smart</div>
-                                        <div class="spec-value">IoT ulanish</div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="progress-section">
-                                <div class="d-flex justify-content-between mb-2">
-                                    <small>Mavjudlik:</small>
-                                    <small>3 dona qoldi</small>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" style="width: 10%"></div>
-                                </div>
-                            </div>
-                            
-                            <div class="action-buttons">
-                                <button class="btn-buy">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    Hoziroq sotib olish
-                                </button>
-                                <button class="btn-compare">
-                                    <i class="fas fa-balance-scale"></i>
-                                    Solishtirish
-                                </button>
-                            </div>
-                            
-                            <div class="quick-actions">
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-video"></i> Video ko'rish
-                                </a>
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-file-pdf"></i> Spetsifikatsiya
-                                </a>
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-store"></i> Namuna ko'rish
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="container py-4">
+        <!-- Sarlavha  😎😎😎-->
+        <div class="text-center mb-5">
+            <h1 class="main-title">Qishloq Xo'jalik Mashinalari</h1>
+        </div>
 
-                 <!-- Traktor Card with Enhanced Features -->
-                <div class="col-xl-4 col-lg-6">
-                    <div class="machine-card premium">
-                        <div class="badge-container">
-                            <span class="badge-premium">Premium</span>
-                            <span class="badge-discount">-15% chegirma</span>
-                        </div>
-                        <div class="machine-img">
-                            <div class="image-slider">
-                                <img src="img/tractor.jpg" class="img-fluid active" alt="Traktor">
-                                <img src="img/tractor.jpg" class="img-fluid" alt="Traktor detail">
-                            </div>
-                            <button class="wishlist-btn">
-                                <i class="far fa-heart"></i>
-                            </button>
-                            <div class="image-counter">1/2</div>
-                        </div>
-                        <div class="machine-content">
-                            <div class="machine-header">
-                                <h3 class="machine-title">Smart Tractor Pro</h3>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-text">4.5 (24 baho)</span>
-                                </div>
-                            </div>
-                            
-                            <p class="machine-desc">GPS navigatsiyali, avtomatik boshqaruvli zamonaviy traktor</p>
-                            
-                            <div class="price-section">
-                                <div class="d-flex align-items-center">
-                                    <div class="price">400 000 000 so'm</div>
-                                    <div class="old-price">470 000 000 so'm</div>
-                                </div>
-                                <div class="monthly-payment">
-                                    <i class="fas fa-calendar-alt me-2"></i>
-                                    <span class="fw-bold">Oylik to'lov:</span>
-                                    <span class="payment-amount">3 500 000 so'm</span>
-                                    <span class="payment-period">(12 oy)</span>
-                                </div>
-                                <div class="saving-info">
-                                    <i class="fas fa-piggy-bank me-1"></i>
-                                    70 000 000 so'm tejang!
-                                </div>
-                            </div>
-                            
-                            <div class="specs-grid">
-                                <div class="spec-item">
-                                    <i class="fas fa-bolt"></i>
-                                    <div>
-                                        <div class="spec-label">Quvvat</div>
-                                        <div class="spec-value">120 ot kuchi</div>
-                                    </div>
-                                </div>
-                                <div class="spec-item">
-                                    <i class="fas fa-gas-pump"></i>
-                                    <div>
-                                        <div class="spec-label">Yonilg'i</div>
-                                        <div class="spec-value">8.5 L/soat</div>
-                                    </div>
-                                </div>
-                                <div class="spec-item">
-                                    <i class="fas fa-wifi"></i>
-                                    <div>
-                                        <div class="spec-label">Smart</div>
-                                        <div class="spec-value">IoT ulanish</div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="progress-section">
-                                <div class="d-flex justify-content-between mb-2">
-                                    <small>Mavjudlik:</small>
-                                    <small>3 dona qoldi</small>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" style="width: 10%"></div>
-                                </div>
-                            </div>
-                            
-                            <div class="action-buttons">
-                                <button class="btn-buy">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    Hoziroq sotib olish
-                                </button>
-                                <button class="btn-compare">
-                                    <i class="fas fa-balance-scale"></i>
-                                    Solishtirish
-                                </button>
-                            </div>
-                            
-                            <div class="quick-actions">
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-video"></i> Video ko'rish
-                                </a>
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-file-pdf"></i> Spetsifikatsiya
-                                </a>
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-store"></i> Namuna ko'rish
-                                </a>
-                            </div>
+        <!-- Mashinalar qatori -->
+        <div class="row g-4">
+            <!-- Traktor  😎😎😎-->
+            <div class="col-lg-4 col-md-6">
+                <div class="machine-card">
+                    <div class="machine-img">
+                           <img src="img/tractor.jpg" class="img-fluid" alt="Tractor">
+                        <div class="kredit-badge">
+                            <i class="fas fa-credit-card me-1"></i> KREDIT MAVJUD
                         </div>
                     </div>
-                </div>
-
-                 <!-- Liteng Log Loader Card with Enhanced Features -->
-                <div class="col-xl-3 col-lg-5">
-                    <div class="machine-card premium">
-                        <div class="badge-container">
-                            <span class="badge-premium">Premium</span>
-                            <span class="badge-discount">-15% chegirma</span>
-                        </div>
-                        <div class="machine-img">
-                            <div class="image-slider">
-                                <img src="img/Liteng Log Loader.jpg" class="img-fluid active" alt="Liteng Log Loader">
-                                <img src="img/Liteng Log Loader.jpg" class="img-fluid" alt="Liteng Log Loader detail">
-                            </div>
-                            <button class="wishlist-btn">
-                                <i class="far fa-heart"></i>
-                            </button>
-                            <div class="image-counter">1/2</div>
-                        </div>
-                        <div class="machine-content">
-                            <div class="machine-header">
-                                <h3 class="machine-title">Smart Liteng Log Loader Pro</h3>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-text">4.5 (24 baho)</span>
-                                </div>
-                            </div>
-                            
-                            <p class="machine-desc">GPS navigatsiyali, avtomatik boshqaruvli zamonaviy Liteng Log Loader</p>
-                            
-                            <div class="price-section">
-                                <div class="d-flex align-items-center">
-                                    <div class="price">400 000 000 so'm</div>
-                                    <div class="old-price">470 000 000 so'm</div>
-                                </div>
-                                <div class="monthly-payment">
-                                    <i class="fas fa-calendar-alt me-2"></i>
-                                    <span class="fw-bold">Oylik to'lov:</span>
-                                    <span class="payment-amount">3 500 000 so'm</span>
-                                    <span class="payment-period">(12 oy)</span>
-                                </div>
-                                <div class="saving-info">
-                                    <i class="fas fa-piggy-bank me-1"></i>
-                                    70 000 000 so'm tejang!
-                                </div>
-                            </div>
-                            
-                            <div class="specs-grid">
-                                <div class="spec-item">
-                                    <i class="fas fa-bolt"></i>
-                                    <div>
-                                        <div class="spec-label">Quvvat</div>
-                                        <div class="spec-value">120 ot kuchi</div>
-                                    </div>
-                                </div>
-                                <div class="spec-item">
-                                    <i class="fas fa-gas-pump"></i>
-                                    <div>
-                                        <div class="spec-label">Yonilg'i</div>
-                                        <div class="spec-value">8.5 L/soat</div>
-                                    </div>
-                                </div>
-                                <div class="spec-item">
-                                    <i class="fas fa-wifi"></i>
-                                    <div>
-                                        <div class="spec-label">Smart</div>
-                                        <div class="spec-value">IoT ulanish</div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="progress-section">
-                                <div class="d-flex justify-content-between mb-2">
-                                    <small>Mavjudlik:</small>
-                                    <small>3 dona qoldi</small>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" style="width: 10%"></div>
-                                </div>
-                            </div>
-                            
-                            <div class="action-buttons">
-                                <button class="btn-buy">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    Hoziroq sotib olish
-                                </button>
-                                <button class="btn-compare">
-                                    <i class="fas fa-balance-scale"></i>
-                                    Solishtirish
-                                </button>
-                            </div>
-                            
-                            <div class="quick-actions">
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-video"></i> Video ko'rish
-                                </a>
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-file-pdf"></i> Spetsifikatsiya
-                                </a>
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-store"></i> Namuna ko'rish
-                                </a>
+                    <div class="machine-content">
+                        <h3 class="machine-title">Traktor</h3>
+                        <p class="text-muted">Yer haydash, ekin ekish va yuk tashish uchun universal texnika</p>
+                        
+                        <div class="price-section">
+                            <div class="price">400 000 000 so'm</div>
+                            <div class="monthly-payment">
+                                <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 3 500 000 so'm (12 oy)
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Liteng Log Loader Card with Enhanced Features -->
-                <div class="col-xl-3 col-lg-6">
-                    <div class="machine-card premium">
-                        <div class="badge-container">
-                            <span class="badge-premium">Premium</span>
-                            <span class="badge-discount">-15% chegirma</span>
+                        
+                        <div class="specs">
+                            <span class="spec-item">
+                                <i class="fas fa-bolt"></i> 120 ot kuchi
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-cogs"></i> Avtomatik
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-gas-pump"></i> Dizel
+                            </span>
                         </div>
-                        <div class="machine-img">
-                            <div class="image-slider">
-                                <img src="img/Liteng Log Loader.jpg" class="img-fluid active" alt="Liteng Log Loader">
-                                <img src="img/Liteng Log Loader.jpg" class="img-fluid" alt="Liteng Log Loader detail">
-                            </div>
-                            <button class="wishlist-btn">
-                                <i class="far fa-heart"></i>
-                            </button>
-                            <div class="image-counter">1/2</div>
-                        </div>
-                        <div class="machine-content">
-                            <div class="machine-header">
-                                <h3 class="machine-title">Smart Liteng Log Loader Pro</h3>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-text">4.5 (24 baho)</span>
-                                </div>
-                            </div>
-                            
-                            <p class="machine-desc">GPS navigatsiyali, avtomatik boshqaruvli zamonaviy traktor</p>
-                            
-                            <div class="price-section">
-                                <div class="d-flex align-items-center">
-                                    <div class="price">600 000 000 so'm</div>
-                                    <div class="old-price">480 000 000 so'm</div>
-                                </div>
-                                <div class="monthly-payment">
-                                    <i class="fas fa-calendar-alt me-2"></i>
-                                    <span class="fw-bold">Oylik to'lov:</span>
-                                    <span class="payment-amount">3 700 000 so'm</span>
-                                    <span class="payment-period">(12 oy)</span>
-                                </div>
-                                <div class="saving-info">
-                                    <i class="fas fa-piggy-bank me-1"></i>
-                                    70 000 000 so'm tejang!
-                                </div>
-                            </div>
-                            
-                            <div class="specs-grid">
-                                <div class="spec-item">
-                                    <i class="fas fa-bolt"></i>
-                                    <div>
-                                        <div class="spec-label">Quvvat</div>
-                                        <div class="spec-value">120 ot kuchi</div>
-                                    </div>
-                                </div>
-                                <div class="spec-item">
-                                    <i class="fas fa-gas-pump"></i>
-                                    <div>
-                                        <div class="spec-label">Yonilg'i</div>
-                                        <div class="spec-value">8.5 L/soat</div>
-                                    </div>
-                                </div>
-                                <div class="spec-item">
-                                    <i class="fas fa-wifi"></i>
-                                    <div>
-                                        <div class="spec-label">Smart</div>
-                                        <div class="spec-value">IoT ulanish</div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="progress-section">
-                                <div class="d-flex justify-content-between mb-2">
-                                    <small>Mavjudlik:</small>
-                                    <small>3 dona qoldi</small>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" style="width: 10%"></div>
-                                </div>
-                            </div>
-                            
-                            <div class="action-buttons">
-                                <button class="btn-buy">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    Hoziroq sotib olish
-                                </button>
-                                <button class="btn-compare">
-                                    <i class="fas fa-balance-scale"></i>
-                                    Solishtirish
-                                </button>
-                            </div>
-                            
-                            <div class="quick-actions">
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-video"></i> Video ko'rish
-                                </a>
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-file-pdf"></i> Spetsifikatsiya
-                                </a>
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-store"></i> Namuna ko'rish
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Plough Card with Enhanced Features -->
-                <div class="col-xl-3 col-lg-6">
-                    <div class="machine-card premium">
-                        <div class="badge-container">
-                            <span class="badge-premium">Premium</span>
-                            <span class="badge-discount">-15% chegirma</span>
-                        </div>
-                        <div class="machine-img">
-                            <div class="image-slider">
-                                <img src="img/plough.jpg" class="img-fluid active" alt="Plough">
-                                <img src="img/plough.jpg" class="img-fluid" alt="Plough detail">
-                            </div>
-                            <button class="wishlist-btn">
-                                <i class="far fa-heart"></i>
-                            </button>
-                            <div class="image-counter">1/2</div>
-                        </div>
-                        <div class="machine-content">
-                            <div class="machine-header">
-                                <h3 class="machine-title">Smart Plough Pro</h3>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-text">4.5 (24 baho)</span>
-                                </div>
-                            </div>
-                            
-                            <p class="machine-desc">GPS navigatsiyali, avtomatik boshqaruvli zamonaviy traktor</p>
-                            
-                            <div class="price-section">
-                                <div class="d-flex align-items-center">
-                                    <div class="price">500 000 000 so'm</div>
-                                    <div class="old-price">460 000 000 so'm</div>
-                                </div>
-                                <div class="monthly-payment">
-                                    <i class="fas fa-calendar-alt me-2"></i>
-                                    <span class="fw-bold">Oylik to'lov:</span>
-                                    <span class="payment-amount">3 500 000 so'm</span>
-                                    <span class="payment-period">(12 oy)</span>
-                                </div>
-                                <div class="saving-info">
-                                    <i class="fas fa-piggy-bank me-1"></i>
-                                    70 000 000 so'm tejang!
-                                </div>
-                            </div>
-                            
-                            <div class="specs-grid">
-                                <div class="spec-item">
-                                    <i class="fas fa-bolt"></i>
-                                    <div>
-                                        <div class="spec-label">Quvvat</div>
-                                        <div class="spec-value">120 ot kuchi</div>
-                                    </div>
-                                </div>
-                                <div class="spec-item">
-                                    <i class="fas fa-gas-pump"></i>
-                                    <div>
-                                        <div class="spec-label">Yonilg'i</div>
-                                        <div class="spec-value">8.5 L/soat</div>
-                                    </div>
-                                </div>
-                                <div class="spec-item">
-                                    <i class="fas fa-wifi"></i>
-                                    <div>
-                                        <div class="spec-label">Smart</div>
-                                        <div class="spec-value">IoT ulanish</div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="progress-section">
-                                <div class="d-flex justify-content-between mb-2">
-                                    <small>Mavjudlik:</small>
-                                    <small>3 dona qoldi</small>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" style="width: 10%"></div>
-                                </div>
-                            </div>
-                            
-                            <div class="action-buttons">
-                                <button class="btn-buy">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    Hoziroq sotib olish
-                                </button>
-                                <button class="btn-compare">
-                                    <i class="fas fa-balance-scale"></i>
-                                    Solishtirish
-                                </button>
-                            </div>
-                            
-                            <div class="quick-actions">
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-video"></i> Video ko'rish
-                                </a>
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-file-pdf"></i> Spetsifikatsiya
-                                </a>
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-store"></i> Namuna ko'rish
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Traktor Card with Enhanced Features -->
-                <div class="col-xl-4 col-lg-6">
-                    <div class="machine-card premium">
-                        <div class="badge-container">
-                            <span class="badge-premium">Premium</span>
-                            <span class="badge-discount">-15% chegirma</span>
-                        </div>
-                        <div class="machine-img">
-                            <div class="image-slider">
-                                <img src="img/combine.jpg" class="img-fluid active" alt="Combine">
-                                <img src="img/combine.jpg" class="img-fluid" alt="Smart Combine X9">
-                            </div>
-                            <button class="wishlist-btn">
-                                <i class="far fa-heart"></i>
-                            </button>
-                            <div class="image-counter">1/2</div>
-                        </div>
-                        <div class="machine-content">
-                            <div class="machine-header">
-                                <h3 class="machine-title">Smart Combine X9</h3>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <span class="rating-text">4.5 (24 baho)</span>
-                                </div>
-                            </div>
-                            
-                            <p class="machine-desc">GPS navigatsiyali, avtomatik boshqaruvli zamonaviy traktor</p>
-                            
-                            <div class="price-section">
-                                <div class="d-flex align-items-center">
-                                    <div class="price">490 000 000 so'm</div>
-                                    <div class="old-price">470 000 000 so'm</div>
-                                </div>
-                                <div class="monthly-payment">
-                                    <i class="fas fa-calendar-alt me-2"></i>
-                                    <span class="fw-bold">Oylik to'lov:</span>
-                                    <span class="payment-amount">3 500 000 so'm</span>
-                                    <span class="payment-period">(12 oy)</span>
-                                </div>
-                                <div class="saving-info">
-                                    <i class="fas fa-piggy-bank me-1"></i>
-                                    70 000 000 so'm tejang!
-                                </div>
-                            </div>
-                            
-                            <div class="specs-grid">
-                                <div class="spec-item">
-                                    <i class="fas fa-bolt"></i>
-                                    <div>
-                                        <div class="spec-label">Quvvat</div>
-                                        <div class="spec-value">120 ot kuchi</div>
-                                    </div>
-                                </div>
-                                <div class="spec-item">
-                                    <i class="fas fa-gas-pump"></i>
-                                    <div>
-                                        <div class="spec-label">Yonilg'i</div>
-                                        <div class="spec-value">8.5 L/soat</div>
-                                    </div>
-                                </div>
-                                <div class="spec-item">
-                                    <i class="fas fa-wifi"></i>
-                                    <div>
-                                        <div class="spec-label">Smart</div>
-                                        <div class="spec-value">IoT ulanish</div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="progress-section">
-                                <div class="d-flex justify-content-between mb-2">
-                                    <small>Mavjudlik:</small>
-                                    <small>3 dona qoldi</small>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" style="width: 30%"></div>
-                                </div>
-                            </div>
-                            
-                            <div class="action-buttons">
-                                <button class="btn-buy">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    Hoziroq sotib olish
-                                </button>
-                                <button class="btn-compare">
-                                    <i class="fas fa-balance-scale"></i>
-                                    Solishtirish
-                                </button>
-                            </div>
-                            
-                            <div class="quick-actions">
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-video"></i> Video ko'rish
-                                </a>
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-file-pdf"></i> Spetsifikatsiya
-                                </a>
-                                <a href="#" class="quick-link">
-                                    <i class="fas fa-store"></i> Namuna ko'rish
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Cosechadora Card -->
-                <div class="col-xl-3 col-lg-6">
-                    <div class="machine-card">
-                        <div class="badge-container">
-                            <span class="badge-new">Yangi</span>
-                        </div>
-                        <div class="machine-img">
-                            <div class="video-overlay">
-                                <img src="img/cosechadora.jpg" class="img-fluid" alt="Cosechadora">
-                                <button class="play-btn">
-                                    <i class="fas fa-play"></i>
-                                </button>
-                            </div>
-                            <button class="wishlist-btn">
-                                <i class="far fa-heart"></i>
-                            </button>
-                        </div>
-                        <div class="machine-content">
-                            <div class="machine-header">
-                                <h3 class="machine-title">Smart Cosechadora X10</h3>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <span class="rating-text">4.0 (18 baho)</span>
-                                </div>
-                            </div>
-                            
-                            <p class="machine-desc">Avtomatik yuqori darajadagi sifat tizimiga ega yuqori unumli cosechadora</p>
-                            
-                            <div class="price-section">
-                                <div class="d-flex align-items-center">
-                                    <div class="price">600 000 000 so'm</div>
-                                </div>
-                                <div class="monthly-payment">
-                                    <i class="fas fa-calendar-alt me-2"></i>
-                                    <span class="fw-bold">Oylik to'lov:</span>
-                                    <span class="payment-amount">4 600 000 so'm</span>
-                                    <span class="payment-period">(12 oy)</span>
-                                </div>
-                            </div>
-                            
-                            <div class="features-list">
-                                <div class="feature-item">
-                                    <i class="fas fa-check-circle text-success"></i>
-                                    <span>Har bir gektardan qo'shimcha 2 tonna hosil</span>
-                                </div>
-                                <div class="feature-item">
-                                    <i class="fas fa-check-circle text-success"></i>
-                                    <span>Avtomatik aniqlik tizimi 99.8%</span>
-                                </div>
-                                <div class="feature-item">
-                                    <i class="fas fa-check-circle text-success"></i>
-                                    <span>Smart sensorlar bilan jihozlangan</span>
-                                </div>
-                            </div>
-                            
-                            <div class="tech-specs">
-                                <h6>Texnik xususiyatlar:</h6>
-                                <div class="row g-2">
-                                    <div class="col-6">
-                                        <small><i class="fas fa-arrows-alt-h me-1"></i> Ish kengligi: 8m</small>
-                                    </div>
-                                    <div class="col-6">
-                                        <small><i class="fas fa-tachometer-alt me-1"></i> Tezlik: 8 km/soat</small>
-                                    </div>
-                                    <div class="col-6">
-                                        <small><i class="fas fa-battery-full me-1"></i> Bak: 450L</small>
-                                    </div>
-                                    <div class="col-6">
-                                        <small><i class="fas fa-weight me-1"></i> Og'irlik: 15t</small>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="action-buttons">
-                                <button class="btn-buy">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    Savatga qo'shish
-                                </button>
-                                <button class="btn-demo">
-                                    <i class="fas fa-calendar-check"></i>
-                                    Demo so'rash
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Paxta Terish Mashinasi with AI Badge -->
-                <div class="col-xl-4 col-lg-6">
-                    <div class="machine-card ai">
-                        <div class="badge-container">
-                            <span class="badge-ai">AI Powered</span>
-                            <span class="badge-popular">Ko'p talab</span>
-                        </div>
-                        <div class="machine-img">
-                            <img src="img/paxta teradi.jpg" class="img-fluid" alt="Paxta terish mashinasi">
-                            <div class="hover-info">
-                                <div class="info-item">
-                                    <i class="fas fa-robot"></i>
-                                    <span>Sun'iy Intellekt</span>
-                                </div>
-                                <div class="info-item">
-                                    <i class="fas fa-satellite"></i>
-                                    <span>GPS Tracking</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="machine-content">
-                            <div class="machine-header">
-                                <h3 class="machine-title">AI Cotton Harvester</h3>
-                                <div class="rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <span class="rating-text">5.0 (32 baho)</span>
-                                </div>
-                            </div>
-                            
-                            <p class="machine-desc">Sun'iy intellekt yordamida paxta sifatini aniqlovchi avtomatik teruvchi</p>
-                            
-                            <div class="price-section">
-                                <div class="d-flex align-items-center">
-                                    <div class="price">350 000 000 so'm</div>
-                                </div>
-                                <div class="monthly-payment">
-                                    <i class="fas fa-calendar-alt me-2"></i>
-                                    <span class="fw-bold">Oylik to'lov:</span>
-                                    <span class="payment-amount">3 060 000 so'm</span>
-                                    <span class="payment-period">(24 oy)</span>
-                                </div>
-                            </div>
-                            
-                            <div class="ai-features">
-                                <h6>AI Imkoniyatlari:</h6>
-                                <div class="ai-feature">
-                                    <i class="fas fa-brain"></i>
-                                    <div>
-                                        <div class="ai-title">Aqlli aniqlash</div>
-                                        <div class="ai-desc">Paxta sifatini real vaqtda baholash</div>
-                                    </div>
-                                </div>
-                                <div class="ai-feature">
-                                    <i class="fas fa-chart-line"></i>
-                                    <div>
-                                        <div class="ai-title">Optimizatsiya</div>
-                                        <div class="ai-desc">Ish jarayonini avtomatik optimallashtirish</div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="action-buttons">
-                                <button class="btn-ai-demo">
-                                    <i class="fas fa-robot"></i>
-                                    AI Demo ko'rish
-                                </button>
-                                <button class="btn-calculator">
-                                    <i class="fas fa-calculator"></i>
-                                    Daromad kalkulyatori
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Continue other cards similarly with enhanced features -->
-            </div>
-        
-            <!-- Comparison Modal Trigger -->
-            <div class="comparison-bar fixed-bottom d-none">
-                <div class="container">
-                    <div class="d-flex justify-content-between align-items-center p-3 bg-white shadow-lg rounded-top">
-                        <div>
-                            <h5 class="mb-0">Solishtirish ro'yxati (2)</h5>
-                            <small>Traktor Pro va Smart Combine</small>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-outline-secondary me-2">Tozalash</button>
-                            <button class="btn btn-success">Solishtirish</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            <!-- New Features Section -->
-            <div class="features-advanced mt-5">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="row g-4">
-                            <div class="col-md-6">
-                                <div class="feature-card">
-                                    <div class="feature-icon-bg">
-                                        <i class="fas fa-sync-alt"></i>
-                                    </div>
-                                    <h5>Almashtirish Dasturi</h5>
-                                    <p class="text-muted">Eski mashinangizni yangisiga almashtiring va 20% chegirma oling</p>
-                                    <a href="#" class="feature-link">Batafsil <i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-card">
-                                    <div class="feature-icon-bg">
-                                        <i class="fas fa-handshake"></i>
-                                    </div>
-                                    <h5>Hamkorlik Dasturi</h5>
-                                    <p class="text-muted">Biz bilan hamkor bo'ling va qo'shimcha daromad toping</p>
-                                    <a href="#" class="feature-link">Qo'shilish <i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="finance-calculator">
-                            <h5 class="mb-3">Mashina Kalkulyatori</h5>
-                            <div class="mb-3">
-                                <label class="form-label">Mashina narxi</label>
-                                <input type="range" class="form-range" min="100" max="500" value="350">
-                                <div class="d-flex justify-content-between">
-                                    <small>100M</small>
-                                    <small>500M</small>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Boshlang'ich to'lov</label>
-                                <select class="form-select">
-                                    <option>0%</option>
-                                    <option>10%</option>
-                                    <option>20%</option>
-                                    <option>30%</option>
-                                </select>
-                            </div>
-                            <div class="result">
-                                <div class="result-item">
-                                    <span>Oylik to'lov:</span>
-                                    <span class="result-value">3 450 000 so'm</span>
-                                </div>
-                                <button class="btn btn-success w-100">
-                                    <i class="fas fa-file-alt me-2"></i> Onlayn ariza topshirish
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            <!-- Live Support Widget -->
-            <div class="support-widget">
-                <div class="support-bubble">
-                    <i class="fas fa-headset"></i>
-                    <span class="pulse"></span>
-                </div>
-                <div class="support-card">
-                    <div class="support-header">
-                        <h6>Yordam kerakmi?</h6>
-                        <small>Onlayn maslahatchi</small>
-                    </div>
-                    <div class="support-buttons">
-                        <button class="btn-chat">
-                            <i class="fas fa-comment"></i> Chat
+                        
+                        <button class="btn-details">
+                            <i class="fas fa-info-circle"></i> Batafsil ma'lumot
                         </button>
-                        <button class="btn-call">
-                            <i class="fas fa-phone"></i> Qo'ng'iroq
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kombayn  😎😎😎-->
+            <div class="col-lg-4 col-md-6">
+                <div class="machine-card">
+                    <div class="machine-img">
+                        <img src="img/combine.jpg" class="img-fluid"  alt="Kombayn">
+                        <div class="kredit-badge">
+                            <i class="fas fa-credit-card me-1"></i> KREDIT MAVJUD
+                        </div>
+                    </div>
+                    <div class="machine-content">
+                        <h3 class="machine-title">Kombayn</h3>
+                        <p class="text-muted">Galla va ekinlarni tez va samarali yig'ish uchun maxsus texnika</p>
+                        
+                        <div class="price-section">
+                            <div class="price">480 000 000 so'm</div>
+                            <div class="monthly-payment">
+                                <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 4 200 000 so'm (12 oy)
+                            </div>
+                        </div>
+                        
+                        <div class="specs">
+                            <span class="spec-item">
+                                <i class="fas fa-tachometer-alt"></i> 8 gektar/kun
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-seedling"></i> 99% aniqlik
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-wind"></i> Havo tozalagich
+                            </span>
+                        </div>
+                        
+                        <button class="btn-details">
+                            <i class="fas fa-info-circle"></i> Batafsil ma'lumot
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Liteng Log Loader 😎😎😎-->
+            <div class="col-lg-4 col-md-6">
+                <div class="machine-card">
+                    <div class="machine-img">
+                       <img src="img/Liteng Log Loader.jpg" class="img-fluid" alt="Liteng Log Loader">
+                        <div class="kredit-badge">
+                            <i class="fas fa-credit-card me-4"></i> KREDIT MAVJUD
+                        </div>
+                    </div>
+                    <div class="machine-content">
+                        <h3 class="machine-title">Liteng Log Loader</h3>
+                        <p class="text-muted">Urug'larni aniq va teng ekish uchun maxsus qurilma</p>
+                        
+                        <div class="price-section">
+                            <div class="price">455 000 000 so'm</div>
+                            <div class="monthly-payment">
+                                <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 3 980 000 so'm (12 oy)
+                            </div>
+                        </div>
+                        
+                        <div class="specs">
+                            <span class="spec-item">
+                                <i class="fas fa-bullseye"></i> ±2 mm aniqlik
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-ruler-combined"></i> 4 metr kenglik
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-sliders-h"></i> Sozlash mumkin
+                            </span>
+                        </div>
+                        
+                        <button class="btn-details">
+                            <i class="fas fa-info-circle"></i> Batafsil ma'lumot
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Seeder 😎😎😎-->
+            <div class="col-lg-4 col-md-6">
+                <div class="machine-card">
+                    <div class="machine-img">
+                        <img src="img/seeder.jpg" class="img-fluid"  alt="Seeder">
+                        <div class="kredit-badge">
+                            <i class="fas fa-credit-card me-1"></i> KREDIT MAVJUD
+                        </div>
+                    </div>
+                    <div class="machine-content">
+                        <h3 class="machine-title">Seeder</h3>
+                        <p class="text-muted">Tuproqni chuqur va sifatli haydash uchun mustahkam asbob</p>
+                        
+                        <div class="price-section">
+                            <div class="price">120 000 000 so'm</div>
+                            <div class="monthly-payment">
+                                <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 1 050 000 so'm (12 oy)
+                            </div>
+                        </div>
+                        
+                        <div class="specs">
+                            <span class="spec-item">
+                                <i class="fas fa-shield-alt"></i> Qattiq po'lat
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-ruler-vertical"></i> 30-40 sm chuqurlik
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-hard-hat"></i> Mustahkam
+                            </span>
+                        </div>
+                        
+                        <button class="btn-details">
+                            <i class="fas fa-info-circle"></i> Batafsil ma'lumot
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plough  😎😎😎-->
+            <div class="col-lg-4 col-md-6">
+                <div class="machine-card">
+                    <div class="machine-img">
+                       <img src="img/plough.jpg" class="img-fluid" alt="Plough">
+                        <div class="kredit-badge">
+                            <i class="fas fa-credit-card me-1"></i> KREDIT MAVJUD
+                        </div>
+                    </div>
+                    <div class="machine-content">
+                        <h3 class="machine-title">Plough</h3>
+                        <p class="text-muted">Tuproqni yumshatish va begona o'tlarni yo'q qilish texnikasi</p>
+                        
+                        <div class="price-section">
+                            <div class="price">280 000 000 so'm</div>
+                            <div class="monthly-payment">
+                                <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 2 450 000 so'm (12 oy)
+                            </div>
+                        </div>
+                        
+                        <div class="specs">
+                            <span class="spec-item">
+                                <i class="fas fa-leaf"></i> Ekologik toza
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-compact-disc"></i> 12 ishchi disk
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-cogs"></i> Oson boshqarish
+                            </span>
+                        </div>
+                        
+                        <button class="btn-details">
+                            <i class="fas fa-info-circle"></i> Batafsil ma'lumot
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sug'orish tizimi 😎😎😎 -->
+            <div class="col-lg-4 col-md-5">
+                <div class="machine-card">
+                    <div class="machine-img">
+                       <img src="img/risovyj_traktor.jpg" class="img-fluid" alt="Sug'orish tizimi">
+                        <div class="kredit-badge">
+                            <i class="fas fa-credit-card me-1"></i> KREDIT MAVJUD
+                        </div>
+                    </div>
+                    <div class="machine-content">
+                        <h3 class="machine-title">Sug'orish Tizimi</h3>
+                        <p class="text-muted">Avtomatik tomchilatib sug'orish tizimi, suvni tejaydi</p>
+                        
+                        <div class="price-section">
+                            <div class="price">350 000 000 so'm</div>
+                            <div class="monthly-payment">
+                                <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 3 060 000 so'm (12 oy)
+                            </div>
+                        </div>
+                        
+                        <div class="specs">
+                            <span class="spec-item">
+                                <i class="fas fa-tint"></i> 60% suv tejash
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-robot"></i> Avtomatik
+                            </span>
+                            <span class="spec-item">
+                                <i class="fas fa-mobile-alt"></i> Telefon boshqaruvi
+                            </span>
+                        </div>
+                        
+                        <button class="btn-details">
+                            <i class="fas fa-info-circle"></i> Batafsil ma'lumot
                         </button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Vesitable Shop End -->
 
-        <!-- Bestsaler Product Start -->
+        <!-- Xususiyatlar  😎😎😎-->
+        <div class="features mt-5">
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h5>2 Yil Kafolat</h5>
+                    <p class="text-muted">Barcha mashinalar uchun 2 yillik kafolat</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h5>Yetkazib Berish</h5>
+                    <p class="text-muted">O'zbekiston bo'ylab bepul yetkazib berish</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h5>Texnik Xizmat</h5>
+                    <p class="text-muted">24/7 texnik xizmat va ehtiyot qismlar</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h5>O'qitish</h5>
+                    <p class="text-muted">Bepul mashina boshqarish bo'yicha o'qitish</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kredit shartlari 😎😎😎 -->
+        <div class="alert alert-success mt-4" style="background: linear-gradient(45deg, #28a745, #20c997); color: white; border: none;">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h4 class="alert-heading mb-1">
+                        <i class="fas fa-percentage me-2"></i> Maxsus Kredit Taklifi!
+                    </h4>
+                    <p class="mb-0">0% dastlabki to'lov, 24 oygacha muddat, yillik 10% foiz stavkasi</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <button class="btn btn-light btn-lg">
+                        <i class="fas fa-info-circle"></i>  Ariza topshirish
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vesitable Shop End -->
+                 
+    <!-- Bestsaler Product Start -->
 
 
 
