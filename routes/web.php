@@ -5,30 +5,31 @@ use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\NewsController;
 use App\Http\Controllers\Admin\AnimalsController;
 use App\Http\Controllers\Admin\AgriTechController;
+use App\Http\Controllers\Admin\FeedsController; 
 use App\Http\Controllers\Admin\PermissionsController;
 use App\Http\Controllers\Admin\RolesController;
 use App\Http\Controllers\Admin\UsersController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
-// FRONTEND ROUTES
+// Public routes
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/animals', [HomeController::class, 'animals'])->name('animals');
-
-// AUTH ROUTES
+Route::get('/view', [HomeController::class, 'view'])->name('view');
 Auth::routes();
 
-// ADMIN PANEL ROUTES
+// Admin routes
 Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
 
     Route::get('/', [AdminController::class, 'index'])->name('index');
 
-    // RESOURCES
-    Route::resource('users', UsersController::class);
-    Route::resource('roles', RolesController::class);
-    Route::resource('permissions', PermissionsController::class);
-    Route::resource('news', NewsController::class);
-    Route::resource('animals', AnimalsController::class);
-    Route::resource('agritech', AgriTechController::class);
+    Route::resources([
+        'users'        => UsersController::class,
+        'roles'        => RolesController::class,
+        'permissions'  => PermissionsController::class,
+        'news'         => NewsController::class,
+        'animals'      => AnimalsController::class,
+        'feeds'        => FeedsController::class, // <-- to‘g‘riladik
+    ]);
 
 });
-

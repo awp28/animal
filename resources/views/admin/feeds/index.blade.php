@@ -1,9 +1,9 @@
 @extends('admin.index')
 
-@section('title', 'Animals')
+@section('title', 'Feeds')
 
 @section('content_header')
-    <h4>Animals</h4>
+    <h4>Feeds</h4>
 @stop
 
 @section('content')
@@ -12,11 +12,10 @@
     <!-- CARD HEADER -->
     <div class="card-header d-flex justify-content-between align-items-center">
 
-        <!-- CREATE BUTTON -->
-        <a href="{{ route('admin.animals.create') }}"
-           class="btn btn-primary btn-sm mr-2">
+        <a href="{{ route('admin.feeds.create') }}"
+                class="btn btn-primary btn-sm mr-2">
             <span class="fas fa-plus"></span>
-            Янги яратиш
+             Янги яратиш
         </a>
     </div>
 
@@ -36,31 +35,31 @@
                 </thead>
 
                 <tbody>
-                    @forelse ($animals as $animal)
+                    @forelse ($feeds as $feed)
                         <tr>
-                            <td>{{ $animal->id }}</td>
+                            <td>{{ $feed->id }}</td>
                             <td>
-                                @if($animal->img)
-                                    <img src="{{ asset('storage/'.$animal->img) }}" width="120" class="img-thumbnail">
+                                @if($feed->img)
+                                    <img src="{{ asset('storage/'.$feed->img) }}" width="120" class="img-thumbnail">
                                 @else
                                     <span class="text-muted">No image</span>
                                 @endif
                             </td>
                             <td>
-                                <a href="{{ route('admin.animals.show', $animal->id) }}">
-                                    {{ $animal->title }}
+                                <a href="{{ route('admin.feeds.show', $feed->id) }}">
+                                    {{ $feed->title }}
                                 </a>
                             </td>
-                            <td>{{ Str::limit($animal->description, 50) }}</td>
-                            <td>{{ number_format($animal->cost, 2) }} $</td>
+                            <td>{{ Str::limit($feed->description, 50) }}</td>
+                            <td>{{ number_format($feed->cost, 2) }} $</td>
                             <td>
-                                <a href="{{ route('admin.animals.show', $animal->id) }}"
+                                <a href="{{ route('admin.feeds.show', $feed->id) }}"
                                    class="btn btn-info btn-sm">View</a>
 
-                                <a href="{{ route('admin.animals.edit', $animal->id) }}"
+                                <a href="{{ route('admin.feeds.edit', $feed->id) }}"
                                    class="btn btn-warning btn-sm">Edit</a>
 
-                                <form action="{{ route('admin.animals.destroy', $animal->id) }}"
+                                <form action="{{ route('admin.feeds.destroy', $feed->id) }}"
                                       method="POST"
                                       class="d-inline">
                                     @csrf
@@ -86,13 +85,15 @@
         <!-- PAGINATION -->
         <div class="d-flex justify-content-between align-items-center mt-3">
             <small class="text-muted">
-                Showing {{ $animals->firstItem() ?? 0 }} - {{ $animals->lastItem() ?? 0 }}
-                of {{ $animals->total() ?? 0 }}
+                Showing {{ $feeds->firstItem() }} - {{ $feeds->lastItem() }}
+                of {{ $feeds->total() }}
             </small>
 
-            {{ $animals->links() }}
+            {{ $feeds->links() }}
         </div>
     </div>
 </div>
+
+
 
 @endsection

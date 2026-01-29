@@ -1406,3 +1406,84 @@
     background: rgb(84, 109, 64);
 }
 /*** Listing Cards End ***/
+
+/* Butun card */
+.feed-card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08); /* juda yengil doimiy soya */
+    transition: box-shadow 1.20s ease, transform 0.9s ease;
+    cursor: pointer;
+}
+
+/* Hover effekti - faqat yengil shadow, rasm kattalashmaydi */
+.feed-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.12); /* juda yumshoq hover soya */
+    transform: translateY(0); /* juda kichik ko‘tarilish, minimal */
+}
+
+/* Rasm */
+.feed-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    /* transform olib tashlandi */
+}
+
+/* Rasm bo‘lmasa */
+.no-img {
+    height: 180px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card body */
+.feed-card .card-body {
+    padding: 1rem;
+}
+
+/* Title */
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 0.3rem;
+}
+
+/* Description */
+.card-text {
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+}
+
+/* Narx */
+.card-cost {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #28a745;
+    text-decoration: none;
+}
+
+.vesitable-img {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.vesitable-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.text-center {
+    clear: both;
+}
