@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 
 // FRONTEND ROUTES
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/listings', [HomeController::class, 'listings'])->name('listings');
+Route::get('/animals', [HomeController::class, 'animals'])->name('animals');
 
 // AUTH ROUTES
 Auth::routes();

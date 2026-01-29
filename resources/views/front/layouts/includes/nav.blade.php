@@ -36,10 +36,7 @@
                         <span class="icon"><i class="fa-solid fa-magnifying-glass"></i></span>
                         <input type="text" placeholder="Search for anything (e.g calves, stores)">
                 </div>
-
                 <button class="post-btn">Post</button>
-
-
             </div>
         </nav>
     </div>
