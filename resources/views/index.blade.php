@@ -283,14 +283,12 @@
                     <div class="machine-content">
                         <h3 class="machine-title">Traktor</h3>
                         <p class="text-muted">Yer haydash, ekin ekish va yuk tashish uchun universal texnika</p>
-                        
                         <div class="price-section">
                             <div class="price">400 000 000 so'm</div>
                             <div class="monthly-payment">
                                 <i class="fas fa-calendar-alt me-1"></i> Oylik to'lov: 3 500 000 so'm (12 oy)
                             </div>
                         </div>
-                        
                         <div class="specs">
                             <span class="spec-item">
                                 <i class="fas fa-bolt"></i> 120 ot kuchi
@@ -302,7 +300,6 @@
                                 <i class="fas fa-gas-pump"></i> Dizel
                             </span>
                         </div>
-                        
                         <button class="btn-details">
                             <i class="fas fa-info-circle"></i> Batafsil ma'lumot
                         </button>
