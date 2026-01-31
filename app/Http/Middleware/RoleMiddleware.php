@@ -22,6 +22,6 @@ class RoleMiddleware
             }
         }
 
-        abort(404);
+        abort(403, 'Sizda ushbu sahifaga kirish uchun ruxsat yo\'q (rol kerak: ' . implode(' yoki ', $roles) . ').');
     }
 }

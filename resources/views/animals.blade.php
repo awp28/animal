@@ -9,95 +9,53 @@
     <!-- Listings Page Start -->
     <div class="py-5 mt-5">
         <div class="row g-3 mx-0">
-                <!-- Left Sidebar - Search & Filter -->
+                <!-- Left Sidebar - Search & Filter (admin ma'lumotlaridan) -->
                 <div class="col-lg-2 col-md-3 mb-4 ps-0" style="max-width: 250px;">
                     <div class="bg-light p-4 rounded">
-                        <h5 class="mb-3">Search Animals</h5>
-                        
-                        <!-- Category -->
-                        <div class="mb-3">
-                            <label class="form-label fw-semibold">Category</label>
-                            <select class="form-select">
-                                <option selected>All Animals</option>
-                                <option>Cattle</option>
-                                <option>Sheep</option>
-                                <option>Goats</option>
-                                <option>Pigs</option>
-                            </select>
-                        </div>
-
-                        <!-- Order By -->
-                        <div class="mb-3">
-                            <label class="form-label fw-semibold">Order By</label>
-                            <select class="form-select">
-                                <option selected>Popular Now</option>
-                                <option>Newest First</option>
-                                <option>Price: Low to High</option>
-                                <option>Price: High to Low</option>
-                            </select>
-                        </div>
-
-                        <!-- Find Near Postcode -->
-                        <div class="mb-3">
-                            <label class="form-label fw-semibold">Find Near Postcode</label>
-                            <a href="#" class="text-success text-decoration-none small">Login to search location</a>
-                        </div>
-
-                        <!-- Checkboxes -->
-                        <div class="mb-3">
-                            <div class="form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="wanted">
-                                <label class="form-check-label" for="wanted">
-                                    Wanted <span class="text-muted">(5)</span>
-                                </label>
+                        <h5 class="mb-3">Qidiruv va filtrlash</h5>
+                        <form method="GET" action="{{ route('animals') }}" id="filter-form">
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold">Qidiruv</label>
+                                <input type="text" name="search" class="form-control" placeholder="Sarlavha..." value="{{ request('search') }}">
                             </div>
-                            <div class="form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="hideSold" checked>
-                                <label class="form-check-label" for="hideSold">
-                                    Hide Sold <span class="text-muted">(44)</span>
-                                </label>
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold">Kategoriya</label>
+                                <select name="category_id" class="form-select">
+                                    <option value="">— Barchasi —</option>
+                                    @foreach($categories as $c)
+                                        <option value="{{ $c->id }}" {{ request('category_id') == $c->id ? 'selected' : '' }}>{{ $c->name }}</option>
+                                    @endforeach
+                                </select>
                             </div>
-                            <div class="form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="hideWanted" checked>
-                                <label class="form-check-label" for="hideWanted">
-                                    Hide Wanted <span class="text-muted">(58)</span>
-                                </label>
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold">Hudud</label>
+                                <select name="region_id" class="form-select">
+                                    <option value="">— Barchasi —</option>
+                                    @foreach($regions as $r)
+                                        <option value="{{ $r->id }}" {{ request('region_id') == $r->id ? 'selected' : '' }}>{{ $r->name }}</option>
+                                    @endforeach
+                                </select>
                             </div>
-                            <div class="form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="auctions">
-                                <label class="form-check-label" for="auctions">
-                                    Auctions <span class="text-muted">(4)</span>
-                                </label>
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold">Zot</label>
+                                <select name="breed_id" class="form-select">
+                                    <option value="">— Barchasi —</option>
+                                    @foreach($breeds as $b)
+                                        <option value="{{ $b->id }}" {{ request('breed_id') == $b->id ? 'selected' : '' }}>{{ $b->name }} @if($b->category)({{ $b->category->name }})@endif</option>
+                                    @endforeach
+                                </select>
                             </div>
-                        </div>
-
-                        <!-- Breeds Search -->
-                        <div class="mb-3">
-                            <label class="form-label fw-semibold">Breeds</label>
-                            <input type="text" class="form-control" placeholder="Search Breeds">
-                        </div>
-
-                        <!-- Breed Checkboxes -->
-                        <div class="mb-3">
-                            <div class="form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="breed1">
-                                <label class="form-check-label" for="breed1">
-                                    Hereford <span class="text-muted">(21)</span>
-                                </label>
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold">Saralash</label>
+                                <select name="order" class="form-select">
+                                    <option value="newest" {{ request('order') == 'newest' ? 'selected' : '' }}>Yangi avval</option>
+                                    <option value="price_asc" {{ request('order') == 'price_asc' ? 'selected' : '' }}>Narx: pastdan yuqoriga</option>
+                                    <option value="price_desc" {{ request('order') == 'price_desc' ? 'selected' : '' }}>Narx: yuqoridan pastga</option>
+                                </select>
                             </div>
-                            <div class="form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="breed2">
-                                <label class="form-check-label" for="breed2">
-                                    Angus <span class="text-muted">(15)</span>
-                                </label>
-                            </div>
-                            <div class="form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="breed3">
-                                <label class="form-check-label" for="breed3">
-                                    Holstein <span class="text-muted">(8)</span>
-                                </label>
-                            </div>
-                        </div>
+                            <button type="submit" class="btn btn-success w-100 mb-2">Qidirish</button>
+                            <a href="{{ route('animals') }}" class="btn btn-outline-secondary w-100">Tozalash</a>
+                        </form>
                     </div>
                 </div>
 
@@ -111,39 +69,51 @@
                         <button class="btn btn-warning btn-sm ms-3">Request a call back</button>
                     </div>
 
-                    <!-- Animal Listings Grid -->
+                    <!-- E'lonlar ro'yxati (admin dan) -->
                     <div class="row g-1" style="row-gap: 20px;">
-                        @foreach ($animals as $animal)
+                        @forelse ($animals as $animal)
                             <div class="col-md-6 col-lg-4">
-                                <div class="product-card-listing">
-                                    <div class="product-image-wrapper position-relative">
-                                        <div class="ratio ratio-4x3">
-                                            @if($animal->img)
-                                            <img src="{{ asset('storage/'.$animal->img) }}" class="w-100 h-100 object-fit-cover" alt="{{$animal->title}}">
-                                            @else
-                                            <div class="w-100 h-100 bg-light d-flex align-items-center justify-content-center">
-                                                <span class="text-muted">Rasm yo'q</span>
+                                <a href="{{ route('ad.show', $animal) }}" class="text-decoration-none text-dark">
+                                    <div class="product-card-listing card h-100">
+                                        <div class="product-image-wrapper position-relative">
+                                            <div class="ratio ratio-4x3">
+                                                @if($animal->img)
+                                                <img src="{{ str_starts_with($animal->img, 'http') ? $animal->img : asset($animal->img) }}" class="w-100 h-100 object-fit-cover" alt="{{ $animal->title }}">
+                                                @else
+                                                <div class="w-100 h-100 bg-light d-flex align-items-center justify-content-center">
+                                                    <span class="text-muted">Rasm yo'q</span>
+                                                </div>
+                                                @endif
                                             </div>
+                                            <div class="position-absolute top-0 start-0 m-2">
+                                                <span class="badge px-3 py-2" style="background: rgb(94, 119, 74);">{{ $animal->type ?? 'Sotuv' }}</span>
+                                            </div>
+                                        </div>
+                                        <div class="listing-details bg-light p-3">
+                                            <p class="mb-1 text-dark fw-semibold">{{ $animal->title }}</p>
+                                            @if($animal->category)
+                                                <span class="badge bg-secondary mb-1">{{ $animal->category->name }}</span>
                                             @endif
-                                        </div>
-                                        <div class="position-absolute top-0 start-0 m-2">
-                                            <span class="badge px-3 py-2" style="background: rgb(94, 119, 74);">FOR SALE</span>
+                                            @if($animal->region)
+                                                <span class="badge bg-light text-dark border mb-1">{{ $animal->region->name }}</span>
+                                            @endif
+                                            <p class="mb-2 text-muted small">{{ \Illuminate\Support\Str::limit($animal->description, 80) }}</p>
+                                            <p class="mb-0 text-success fw-bold">{{ number_format($animal->price) }} {{ $animal->currency }}</p>
                                         </div>
                                     </div>
-                                    <div class="listing-details bg-light p-3">
-                                        <div class="d-flex align-items-center mb-2">
-                                            <i class="fas fa-lock text-success me-2"></i>
-                                            <span class="text-muted small">Members Access</span>
-                                            <a href="#" class="text-success text-decoration-none ms-2 small">Login for more info</a>
-                                        </div>
-                                        <p class="mb-2 text-dark fw-semibold">{{$animal->title}}</p>
-                                        <p class="mb-2 text-muted small">{{$animal->description}}</p>
-                                        <a href="#" class="text-success text-decoration-none small">£ Login for pricing</a>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
-                        @endforeach
+                        @empty
+                            <div class="col-12 text-center py-5 text-muted">
+                                <p>E'lonlar topilmadi. Filtrlarni o'zgartirib ko'ring.</p>
+                            </div>
+                        @endforelse
                     </div>
+                    @if(method_exists($animals, 'links'))
+                        <div class="d-flex justify-content-center mt-4">
+                            {{ $animals->links() }}
+                        </div>
+                    @endif
                 </div>
 
                 <!-- Right Sidebar - Advertisements -->

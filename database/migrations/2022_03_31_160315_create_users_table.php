@@ -18,6 +18,9 @@ class CreateUsersTable extends Migration
             $table->string('username')->unique();
             $table->string('password');
 //            $table->foreignId('role_id')->nullable()->constrained();
+            $table->string('full_name', 100)->nullable(); // To'liq ism
+            $table->string('phone', 20)->unique()->nullable();
+            $table->foreignId('region_id')->nullable()->constrained('regions');
             $table->rememberToken();
             $table->timestamps();
         });

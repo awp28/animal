@@ -50,27 +50,29 @@
                         <div id="tab-1" class="tab-pane fade show p-0 active">
                             <div class="owl-carousel animal-carousel justify-content-center">
                                 @foreach ($animals as $animal)
-                                    <div class="product-card-listing">
-                                        <div class="product-image-wrapper position-relative">
-                                            <div class="ratio ratio-4x3">
-                                                @if($animal->img)
-                                                <img src="{{ asset('storage/'.$animal->img) }}" class="w-100 h-100 object-fit-cover" alt="{{$animal->title}}">
-                                                @else
-                                                <div class="w-100 h-100 bg-light d-flex align-items-center justify-content-center">
-                                                    <span class="text-muted">Rasm yo'q</span>
+                                    <a href="{{ route('ad.show', $animal) }}" class="text-decoration-none text-dark">
+                                        <div class="product-card-listing">
+                                            <div class="product-image-wrapper position-relative">
+                                                <div class="ratio ratio-4x3">
+                                                    @if($animal->img)
+                                                    <img src="{{ str_starts_with($animal->img, 'http') ? $animal->img : asset($animal->img) }}" class="w-100 h-100 object-fit-cover" alt="{{ $animal->title }}">
+                                                    @else
+                                                    <div class="w-100 h-100 bg-light d-flex align-items-center justify-content-center">
+                                                        <span class="text-muted">Rasm yo'q</span>
+                                                    </div>
+                                                    @endif
                                                 </div>
-                                                @endif
+                                                <div class="position-absolute top-0 start-0 m-2">
+                                                    <span class="badge bg-success px-3 py-2">{{ $animal->type ?? 'Sotuv' }}</span>
+                                                </div>
                                             </div>
-                                            <div class="position-absolute top-0 start-0 m-2">
-                                                <span class="badge bg-success px-3 py-2">FOR SALE</span>
+                                            <div class="listing-details bg-light p-3">
+                                                <p class="mb-2 text-dark fw-semibold">{{ $animal->title }}</p>
+                                                <p class="mb-2 text-muted small">{{ \Illuminate\Support\Str::limit($animal->description, 60) }}</p>
+                                                <p class="mb-0 text-success fw-bold">{{ number_format($animal->price) }} {{ $animal->currency }}</p>
                                             </div>
                                         </div>
-                                        <div class="listing-details bg-light p-3">
-                                            <p class="mb-2 text-dark fw-semibold">{{$animal->title}}</p>
-                                            <p class="mb-2 text-muted small">{{$animal->description}}</p>
-                                            <a href="#" class="text-success text-decoration-none small">£ Login for pricing</a>
-                                        </div>
-                                    </div>
+                                    </a>
                                 @endforeach
                             </div>
                         </div>
